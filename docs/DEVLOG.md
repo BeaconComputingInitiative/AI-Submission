@@ -231,3 +231,37 @@
 
 **Milestone:** `docs/milestones/M4.5-FINANCIAL-DATASET-v1.1.0.md`
 
+---
+### 2026-11-02T20:21:48Z | INFO | M4.4 Real-World Research Audit and Holdout Integrity
+
+**Status:** HISTORICAL RESEARCH EVIDENCE RECORDED — NO PRODUCTION PROMOTION
+
+**Details:** Recorded previously reported workstation experiments M4.4.4 through M4.4.8 without rewriting older entries. M4.4.4: 12-month block bootstrap estimated a 0.00056445 MAE gain over the linear baseline; 95% interval [-0.00985139, +0.01121582] crossed zero. M4.4.5 New York/Texas external diagnostic: frozen candidate MAE 0.238381 versus linear 0.229688 and persistence 0.223438. M4.4.6 neural candidate checkpoint SHA-256 `5734092ef2dcc716f8892f3aa7b021b05a0861949b81028cd07ac6f8e53957ba`; validation favored linear over the neural candidate; no promotion. M4.4.7 Florida/Georgia external diagnostic: neural 0.257462, linear 0.262500, persistence 0.201563. M4.4.8: 15 shock fallbacks were effectively equivalent to linear with MAE 0.906667 while persistence was 0.640000. The previously evaluated California/Nevada, New York/Texas and Florida/Georgia periods have now been inspected; none is an untouched confirmation cohort. A future claim of generalization requires a new cohort and a locked, preregistered evaluation plan. Reported metrics are research diagnostics, not deployment evidence.
+
+**M4.4.9:** Differentiable neural arbitration was specified and draft code was provided; no executed M4.4.9 checkpoint/validation report is verified in this log. Research-only, not promoted.
+
+**Git:** documentation update (this commit)
+**Developer Seal:** CJB-DEV-2026
+
+---
+
+### 2026-11-02T20:21:48Z | DECISION | Contract-Driven A440 Neural Evidence Field and Enterprise Learning Lifecycle
+
+**Status:** ARCHITECTURE DECISION RECORDED — IMPLEMENTATION AND ENTERPRISE RELEASES PENDING
+
+**Details:** Adopted the Neural Evidence Field (NEF) as the proposed model direction rather than requiring a purely oscillatory Tonal Kernel. The intended core maintains distinct observed, projected, relational and adaptive state; sparse incremental propagation; provenance-preserving evidence; and outcome-driven candidate learning. This is a research architecture drawing on existing graph, predictive-coding and continual-learning ideas; distinctiveness and performance have not yet been experimentally established.
+
+**Agent and contract design:** Nine reusable acquisition-function agent interfaces are assigned customer-specific tasks by versioned Data Acquisition Contracts (DACs). DACs define approved endpoints, fields/types, collection frequency, source identities, timestamps, validation, retention, permissions, relationships and learning eligibility. One agent may handle many evidence types. The Condenser normalizes, timestamps, validates and deduplicates observations into a tenant-isolated, append-only Evidence Ledger. Separate identities track agent, source/event and neural representations; the eight-observation Octet is temporal context, *not* a limit of eight evidence types or signatures. Proposed dynamic signature and relation expansion requires validation, identity controls and resource limits.
+
+**Learning design:** Each authorized observation may update the working Evidence Field immediately, but agent output does not directly update production weights. Prediction records preserve model version, evidence available at prediction time and horizon. Verified delayed outcomes can form supervised training examples. An isolated worker trains replay-supported tenant candidates; the Conductor promotes a candidate if and only if predefined integrity, accuracy, security, regression and rollback gates pass. Customer private data and adaptations are tenant-isolated; shared-foundation learning requires independent authorization and privacy controls.
+
+**Predeployment design:** Proposed independent BCI Endpoint Provisioner discovers *approved* systems, configures least-privilege read-only exports, compiles data contracts, verifies historical backfill and baseline reconciliation, and emits a readiness report. A440 customer-specific production inference is activated only after required readiness gates pass (or in explicitly restricted mode). Model-independent data contracts and evidence storage survive foundation upgrades.
+
+**Proposed release progression (not shipped):** R1.0 Endpoint Provisioner; R1.1 Evidence Infrastructure; R2.0 A440 Enterprise Foundation; R2.1 governed Continuous Learning; R3.0 enterprise management platform.
+
+**Next engineering tasks:** Specify and test A440 Contract Compiler; build a minimal NEF relational kernel and agent-to-Condenser ingestion loop; implement delayed-outcome matching and candidate promotion gates; establish independent locked evaluation cohorts. Existing M4.1–M4.4.8 checkpoints and measurements remain baselines and must not be overwritten. T1 tonal research is exploratory, not the adopted production core.
+
+**Git:** documentation update (this commit)
+**Developer Seal:** CJB-DEV-2026
+
+---

@@ -1,0 +1,130 @@
+# BEACON COMPUTING INITIATIVE
+# Developer Seal: CJB-DEV-2026
+# Safe initial research deployment; override for compose.yaml.
+services:
+  model:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 384m
+    cpus: 1.00
+    pids_limit: 128
+  endpoint-01:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-02:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-03:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-04:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-05:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-06:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-07:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-08:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-09:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-10:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-11:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-12:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-13:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-14:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-15:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-16:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-17:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-18:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-19:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64
+  endpoint-20:
+    image: bci/a440-quarter-lab:v0.1.2
+    restart: "no"
+    mem_limit: 96m
+    cpus: 0.20
+    pids_limit: 64

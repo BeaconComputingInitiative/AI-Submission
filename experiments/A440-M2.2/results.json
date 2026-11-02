@@ -1,0 +1,96 @@
+{
+  "project": "BCIPitch",
+  "developer_seal": "CJB-DEV-2026",
+  "version": "0.2.2",
+  "experiment": "Harmonic Octet Tournament",
+  "dataset": "synthetic_regression",
+  "seeds": [
+    440,
+    441,
+    442
+  ],
+  "steps_per_run": 240,
+  "batch_size": 8,
+  "limitations": [
+    "Tournament has more parameters than baseline",
+    "Hierarchy is sensitive to input order",
+    "Synthetic labels do not require group context",
+    "Results do not establish tournament superiority"
+  ],
+  "summary": {
+    "baseline8": {
+      "mean_test_mse": 0.004661503390202092,
+      "std_test_mse": 0.0011693819284765289,
+      "mean_seconds": 0.29950082433303277,
+      "parameters": 1249
+    },
+    "harmonic_octet": {
+      "mean_test_mse": 0.0034011055152708045,
+      "std_test_mse": 0.0004999092719520063,
+      "mean_seconds": 0.5932938806678673,
+      "parameters": 8513
+    }
+  },
+  "runs": [
+    {
+      "model": "baseline8",
+      "seed": 440,
+      "parameters": 1249,
+      "optimizer_updates": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.008629152764721463,
+      "test_mse": 0.003697499788055817,
+      "seconds": 0.29442528700019466
+    },
+    {
+      "model": "harmonic_octet",
+      "seed": 440,
+      "parameters": 8513,
+      "optimizer_updates": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.007940393455404168,
+      "test_mse": 0.0031102135544642806,
+      "seconds": 0.5935033610003302
+    },
+    {
+      "model": "baseline8",
+      "seed": 441,
+      "parameters": 1249,
+      "optimizer_updates": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.007419418485369533,
+      "test_mse": 0.005962331721093506,
+      "seconds": 0.294217374001164
+    },
+    {
+      "model": "harmonic_octet",
+      "seed": 441,
+      "parameters": 8513,
+      "optimizer_updates": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.00592328099689136,
+      "test_mse": 0.00311475793326584,
+      "seconds": 0.577064656001312
+    },
+    {
+      "model": "baseline8",
+      "seed": 442,
+      "parameters": 1249,
+      "optimizer_updates": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.007996178697794676,
+      "test_mse": 0.004324678661456953,
+      "seconds": 0.3098598119977396
+    },
+    {
+      "model": "harmonic_octet",
+      "seed": 442,
+      "parameters": 8513,
+      "optimizer_updates": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.007539697476507475,
+      "test_mse": 0.003978345058082293,
+      "seconds": 0.6093136250019597
+    }
+  ]
+}

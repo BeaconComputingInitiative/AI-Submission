@@ -1,0 +1,7 @@
+5b3e657d61e899646f50a14bebebea3042d7c85c5ab4c6c07702ee11fe90baeb  experiments/A440-M2.1/benchmark.py
+1842791e6f9e19f1f96a22c14b43b45bc6124c9c386a24b9c58a200aeb557884  experiments/A440-M2.1/results.json
+0edbdfb3663c05310b382103cce222d2aa4cc1e391588e2e0d1b21fc6996d43e  experiments/A440-M2.2/benchmark.py
+9425b926bb419f34080b9a7356ae275616bef3b3399bab644d93b28c9bfa33f7  experiments/A440-M2.2/results.json
+60faf53cc305f22f338aa7f8959df5ea2e185f0331c39891f8e8dfdf96eb9cbc  experiments/A440-M2.3/benchmark.py
+f5bb948fc48e9357d601a8a0b009e4c71af43149fc2e40af8832bfafefb7ee82  experiments/A440-M2.3/results.json
+77b19ed366d89a6af38959a893cdf9324651d41700de607a34edeeba7aca9882  docs/milestones/M2-RESEARCH.md

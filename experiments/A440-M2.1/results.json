@@ -1,0 +1,212 @@
+{
+  "project": "BCIPitch",
+  "developer_seal": "CJB-DEV-2026",
+  "version": "0.2.1",
+  "experiment": "Controlled Octet Benchmark",
+  "dataset": "synthetic regression",
+  "device": "cpu",
+  "optimizer_steps_per_run": 240,
+  "seeds": [
+    440,
+    441,
+    442,
+    443,
+    444
+  ],
+  "limitations": [
+    "Only one fixed synthetic dataset is evaluated.",
+    "Equal updates do not imply equal samples processed.",
+    "Structured grouping is feature balancing, not a learned harmonic tournament.",
+    "No generalization claim beyond this experiment."
+  ],
+  "summary": {
+    "baseline32": {
+      "runs": 5,
+      "mean_test_mse": 0.0034623931627720595,
+      "std_test_mse": 0.00035344683296823116,
+      "mean_training_seconds": 0.26057526500007955,
+      "mean_samples_processed": 7680
+    },
+    "random8": {
+      "runs": 5,
+      "mean_test_mse": 0.004884328786283731,
+      "std_test_mse": 0.0008989076251670764,
+      "mean_training_seconds": 0.24575850359979085,
+      "mean_samples_processed": 1920
+    },
+    "octet8": {
+      "runs": 5,
+      "mean_test_mse": 0.0045353027526289225,
+      "std_test_mse": 0.0007414001750413249,
+      "mean_training_seconds": 0.24887336519896053,
+      "mean_samples_processed": 1920
+    }
+  },
+  "runs": [
+    {
+      "configuration": "baseline32",
+      "seed": 440,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 7680,
+      "best_validation_mse": 0.006398117169737816,
+      "held_out_test_mse": 0.0032171346247196198,
+      "training_seconds": 0.31160475299839163,
+      "samples_per_second": 24646.60736429666
+    },
+    {
+      "configuration": "random8",
+      "seed": 440,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.008629153482615948,
+      "held_out_test_mse": 0.003697499632835388,
+      "training_seconds": 0.27536284899906605,
+      "samples_per_second": 6972.618154479191
+    },
+    {
+      "configuration": "octet8",
+      "seed": 440,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.008227183483541012,
+      "held_out_test_mse": 0.0039354595355689526,
+      "training_seconds": 0.2825420840017614,
+      "samples_per_second": 6795.447859682491
+    },
+    {
+      "configuration": "baseline32",
+      "seed": 441,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 7680,
+      "best_validation_mse": 0.005128770601004362,
+      "held_out_test_mse": 0.0035453466698527336,
+      "training_seconds": 0.25833289200090803,
+      "samples_per_second": 29729.083046741896
+    },
+    {
+      "configuration": "random8",
+      "seed": 441,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.007419417146593332,
+      "held_out_test_mse": 0.005962331313639879,
+      "training_seconds": 0.23059936099889455,
+      "samples_per_second": 8326.12888293825
+    },
+    {
+      "configuration": "octet8",
+      "seed": 441,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.005037908907979727,
+      "held_out_test_mse": 0.005658003035932779,
+      "training_seconds": 0.2349034959988785,
+      "samples_per_second": 8173.5692857000595
+    },
+    {
+      "configuration": "baseline32",
+      "seed": 442,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 7680,
+      "best_validation_mse": 0.007326985243707895,
+      "held_out_test_mse": 0.0034012477844953537,
+      "training_seconds": 0.23635265399934724,
+      "samples_per_second": 32493.817480133777
+    },
+    {
+      "configuration": "random8",
+      "seed": 442,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.007996180094778538,
+      "held_out_test_mse": 0.004324678331613541,
+      "training_seconds": 0.23878718400010257,
+      "samples_per_second": 8040.632532435976
+    },
+    {
+      "configuration": "octet8",
+      "seed": 442,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.0074477228336036205,
+      "held_out_test_mse": 0.0037920887116342783,
+      "training_seconds": 0.23518961699664942,
+      "samples_per_second": 8163.625692827047
+    },
+    {
+      "configuration": "baseline32",
+      "seed": 443,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 7680,
+      "best_validation_mse": 0.007779289502650499,
+      "held_out_test_mse": 0.004023541230708361,
+      "training_seconds": 0.23698097099986626,
+      "samples_per_second": 32407.665339527764
+    },
+    {
+      "configuration": "random8",
+      "seed": 443,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.00670376792550087,
+      "held_out_test_mse": 0.004968720022588968,
+      "training_seconds": 0.23035329000049387,
+      "samples_per_second": 8335.02312902014
+    },
+    {
+      "configuration": "octet8",
+      "seed": 443,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.006635995581746101,
+      "held_out_test_mse": 0.004675342235714197,
+      "training_seconds": 0.24195975299880956,
+      "samples_per_second": 7935.204000681247
+    },
+    {
+      "configuration": "baseline32",
+      "seed": 444,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 7680,
+      "best_validation_mse": 0.005400021094828844,
+      "held_out_test_mse": 0.0031246955040842295,
+      "training_seconds": 0.25960505500188447,
+      "samples_per_second": 29583.39929068119
+    },
+    {
+      "configuration": "random8",
+      "seed": 444,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.005722420290112495,
+      "held_out_test_mse": 0.005468414630740881,
+      "training_seconds": 0.25368983400039724,
+      "samples_per_second": 7568.296962175447
+    },
+    {
+      "configuration": "octet8",
+      "seed": 444,
+      "parameters": 1249,
+      "optimizer_steps": 240,
+      "samples_processed": 1920,
+      "best_validation_mse": 0.005810840055346489,
+      "held_out_test_mse": 0.004615620244294405,
+      "training_seconds": 0.24977187599870376,
+      "samples_per_second": 7687.014369904337
+    }
+  ]
+}

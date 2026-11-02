@@ -1,0 +1,209 @@
+{
+  "project": "BCIPitch",
+  "developer_seal": "CJB-DEV-2026",
+  "version": "0.2.3",
+  "experiment": "Parameter-matched harmonic study",
+  "optimizer_steps": 180,
+  "octet_size": 8,
+  "seeds": [
+    440,
+    441,
+    442
+  ],
+  "baseline_parameters": 2641,
+  "harmonic_parameters": 2773,
+  "harmonic_width": 18,
+  "dataset_groups": {
+    "train": 56,
+    "validation": 12,
+    "test": 12
+  },
+  "limitations": [
+    "Synthetic tasks only",
+    "One fixed dataset per task",
+    "Three seeds are exploratory",
+    "Model counts are approximately matched",
+    "Octet membership is fixed during evaluation",
+    "No claims about real-world causal inference"
+  ],
+  "summary": {
+    "independent": {
+      "baseline": {
+        "mean_test_mse": 0.004695196011905662,
+        "std_test_mse": 0.0006425829137205244,
+        "mean_permutation_delta": 1.4616590407159592e-08,
+        "mean_seconds": 0.3615255536666761,
+        "parameters": 2641
+      },
+      "harmonic": {
+        "mean_test_mse": 0.008286956953169364,
+        "std_test_mse": 0.0027182417917011887,
+        "mean_permutation_delta": 0.013935746288754873,
+        "mean_seconds": 0.7579368939974908,
+        "parameters": 2773
+      }
+    },
+    "relational": {
+      "baseline": {
+        "mean_test_mse": 0.06681667594239116,
+        "std_test_mse": 0.0029443783430068435,
+        "mean_permutation_delta": 1.812845261560546e-08,
+        "mean_seconds": 0.38995154266619164,
+        "parameters": 2641
+      },
+      "harmonic": {
+        "mean_test_mse": 0.07640760115140842,
+        "std_test_mse": 0.004794852462531856,
+        "mean_permutation_delta": 0.045267052922604814,
+        "mean_seconds": 0.6822083919990595,
+        "parameters": 2773
+      }
+    }
+  },
+  "runs": [
+    {
+      "task": "independent",
+      "model": "baseline",
+      "seed": 440,
+      "parameters": 2641,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.010438376882423958,
+      "test_mse": 0.003958112065447494,
+      "permutation_delta": 1.249524454275767e-08,
+      "seconds": 0.3468582370005606
+    },
+    {
+      "task": "independent",
+      "model": "harmonic",
+      "seed": 440,
+      "parameters": 2773,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.012522689222047726,
+      "test_mse": 0.009159022602640713,
+      "permutation_delta": 0.011632363932828108,
+      "seconds": 0.8645675019979535
+    },
+    {
+      "task": "independent",
+      "model": "baseline",
+      "seed": 441,
+      "parameters": 2641,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.0056266085982012255,
+      "test_mse": 0.004989959648810327,
+      "permutation_delta": 1.5677263339360554e-08,
+      "seconds": 0.40417511600026046
+    },
+    {
+      "task": "independent",
+      "model": "harmonic",
+      "seed": 441,
+      "parameters": 2773,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.02364743718256553,
+      "test_mse": 0.010462143109180033,
+      "permutation_delta": 0.017999320368592937,
+      "seconds": 0.7211617269967974
+    },
+    {
+      "task": "independent",
+      "model": "baseline",
+      "seed": 442,
+      "parameters": 2641,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.009389850834850222,
+      "test_mse": 0.005137516321459164,
+      "permutation_delta": 1.5677263339360554e-08,
+      "seconds": 0.3335433079992072
+    },
+    {
+      "task": "independent",
+      "model": "harmonic",
+      "seed": 442,
+      "parameters": 2773,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.010087597319701066,
+      "test_mse": 0.005239705147687346,
+      "permutation_delta": 0.012175554564843575,
+      "seconds": 0.6880814529977215
+    },
+    {
+      "task": "relational",
+      "model": "baseline",
+      "seed": 440,
+      "parameters": 2641,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.18466438919616243,
+      "test_mse": 0.06344654069592555,
+      "permutation_delta": 1.311612625916799e-08,
+      "seconds": 0.4572116469971661
+    },
+    {
+      "task": "relational",
+      "model": "harmonic",
+      "seed": 440,
+      "parameters": 2773,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.18860478807861605,
+      "test_mse": 0.07482667764027913,
+      "permutation_delta": 0.03004589785511295,
+      "seconds": 0.6512081969995052
+    },
+    {
+      "task": "relational",
+      "model": "baseline",
+      "seed": 441,
+      "parameters": 2641,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.17900472227483988,
+      "test_mse": 0.06811314976463716,
+      "permutation_delta": 2.192488561073939e-08,
+      "seconds": 0.33227141400129767
+    },
+    {
+      "task": "relational",
+      "model": "harmonic",
+      "seed": 441,
+      "parameters": 2773,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.2545693013817072,
+      "test_mse": 0.0817932909509788,
+      "permutation_delta": 0.09088566138719519,
+      "seconds": 0.7080204570011119
+    },
+    {
+      "task": "relational",
+      "model": "baseline",
+      "seed": 442,
+      "parameters": 2641,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.18051724787801504,
+      "test_mse": 0.06889033736661077,
+      "permutation_delta": 1.9344345976909e-08,
+      "seconds": 0.3803715670001111
+    },
+    {
+      "task": "relational",
+      "model": "harmonic",
+      "seed": 442,
+      "parameters": 2773,
+      "steps": 180,
+      "samples_processed": 1440,
+      "validation_mse": 0.20070798508822918,
+      "test_mse": 0.07260283486296733,
+      "permutation_delta": 0.014869599525506297,
+      "seconds": 0.6873965219965612
+    }
+  ]
+}

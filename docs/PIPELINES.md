@@ -3,7 +3,7 @@
 
 **Expanded engineering design • Specification v3.3 (proposed)**  
 **Project:** BCIPitch — *Predictive Intelligence Through Contextual Harmony*  
-**Foundational model:** A440 Tonal Network Model (TNM)  
+**Foundational model:** A440 Neural Variant (A440-NV)  
 **Founder and architect:** Chance Joaquin Boone  
 **Developer Seal:** `CJB-DEV-2026`  
 **Status:** Architecture and acceptance criteria; not proof of implemented or benchmarked components.
@@ -37,7 +37,7 @@ BCIPitch's commissioning, inference and local training pipelines are deliberatel
                               /          \
                            Reject       Promote
                                            |
-                                  LOCAL TONAL VARIANT
+                                  LOCAL NEURAL VARIANT
                                            |
                              Answers / forecasts / outcomes
                                            |
@@ -259,11 +259,11 @@ A polished artifact is deployable **only if** its compatibility, numerical and h
 User request -> tenant permission -> task classification
   -> deterministic metric engine / validated query
   -> auditable retrieved evidence
-  -> optional TNM language synthesis
+  -> optional A440-NV language synthesis
   -> source-linked response + freshness + uncertainty
 ```
 
-Use deterministic arithmetic for exact KPI reporting and appropriate statistical/time-series models as forecasting baselines. Forecast outputs should include horizon, training cutoff, backtest metrics, known assumptions and uncertainty intervals. Evaluate specialized TNM forecasting against simple baselines such as seasonal naïve models before claiming improvements.
+Use deterministic arithmetic for exact KPI reporting and appropriate statistical/time-series models as forecasting baselines. Forecast outputs should include horizon, training cutoff, backtest metrics, known assumptions and uncertainty intervals. Evaluate specialized A440-NV forecasting against simple baselines such as seasonal naïve models before claiming improvements.
 
 Actions affecting customer operations require separate scoped tools and explicit business authorization; a generated recommendation is not permission.
 
@@ -277,7 +277,7 @@ Outcome Signatures observe independently verifiable consequences of previous act
 
 Positive feedback does not automatically mean a model was causally correct; use controlled comparisons or appropriate evaluation designs where possible. New validated examples enter the next Measure/Octet cycle, while prior representative tasks are replayed to reduce forgetting.
 
-Two deployments may begin from the same A440 file and develop different **local Tonal Variant** adapters. Their sensitive business memory remains locally governed, and policy enforces boundaries on any exchange.
+Two deployments may begin from the same A440 file and develop different **local Neural Variant** adapters. Their sensitive business memory remains locally governed, and policy enforces boundaries on any exchange.
 
 ## 12. Concurrency, failure recovery and observability
 
@@ -339,7 +339,7 @@ Module layout is **proposed**; unimplemented files should not be represented as 
 ## 15. BCI documentation control
 
 **Developer Seal:** CJB-DEV-2026.  
-**Project:** BCIPitch / A440 TNM.  
+**Project:** BCIPitch / A440 Neural Variant.  
 **Document:** Pipeline Engineering Specification v3.3.  
 **Integrity:** compute and store SHA-256 digest from final artifact bytes; do not invent a checksum.  
 **Founding acknowledgment:** Musical inspiration credits Shawn Silva and Joseph Flores of Oñate High School, Las Cruces, New Mexico, and Aaron Howe of the New Mexico Gay Men's Chorus.

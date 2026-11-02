@@ -1,5 +1,14 @@
 # BEACON COMPUTING INITIATIVE (BCI)
 ## A440 — Tonal Network Model (TNM)
+
+![BCI A440 branded musical staff, 3/4 signature](assets/branding/BCI-A440-Staff-3-4.svg)
+
+![BCI A440 evidence and learning pipeline](assets/illustrations/A440-Training-Pipeline.svg)
+
+**Publication package:** [Release v3.2 metadata](releases/v3.2/BCI_A440_Tonal_Network_Model_Official_v3.2.release.json) · [SHA-256](releases/v3.2/BCI_A440_Tonal_Network_Model_Official_v3.2.SHA256SUMS) · [SHA-512](releases/v3.2/BCI_A440_Tonal_Network_Model_Official_v3.2.SHA512SUMS)
+
+> **Publication status:** The manifests record the official document hashes. The actual PDF, DOCX, and Markdown publication files are not yet committed in the repository, so these manifests cannot be fully checked against GitHub-hosted documents.
+
 **Official research and commercial architecture | Specification v3.2 | Developer Seal: CJB-DEV-2026**
 
 > **A shared foundational model. Independent environmental intelligence. Evidence-driven adaptation.**
@@ -39,6 +48,22 @@ The architecture takes its terminology from ensemble performance:
 The terms are an engineering metaphor, not a substitute for specifying neural operations and evaluation criteria.
 
 ## 3. End-to-end pipeline
+
+### Engineering flow versus business experience
+
+The business does not need to wait for self-training before using its historic metrics. On commissioning, the A440 instance loads an approved profile and an auditable baseline, then answers metric questions by retrieving records and performing calculations. Concurrently, its Signatures observe approved sources, its Measure Engine qualifies the evidence, and its Conductor uses suitable Octets to evaluate potential behavioral improvements.
+
+The training loop is deliberately **not** self-certifying: a proposed causal explanation, anomaly label or forecast made by the model cannot serve as independent proof of its own correctness. Feedback and verified business outcomes need provenance and independent checks.
+
+### System boundaries
+
+- **Data plane:** Signature events, raw ledger, Measures, and safe retrieval.
+- **Learning plane:** Eligibility, eight-entry Octet assembly, training, held-out evaluation, promotion and rollback.
+- **Governance plane:** A440 version identity, permissions, tenant data boundaries, retention, and audit.
+- **Application plane:** Electron dashboards, explanations, grounded answers, and forecasts.
+
+This separation permits a small-business deployment to keep answering questions while training runs opportunistically in the background, and permits enterprises to manage policies consistently without forcing all branches to share raw business data.
+
 
 ```text
                      A440 foundational model file
@@ -256,7 +281,13 @@ The musical staff logo uses a **3/4 time signature** and a three-quarter-note mo
 
 The musical foundation of this work is dedicated with gratitude to **Shawn Silva and Joseph Flores**, high school band directors at **Oñate High School in Las Cruces, New Mexico**, and **Aaron Howe**, director of the **New Mexico Gay Men's Chorus**. Their mentorship, musical instruction, and support informed the ensemble metaphor at the heart of this architecture.
 
-## 17. Authorship and licensing
+## 17. Publication and artifact integrity
+
+The release metadata and checksum manifests in `releases/v3.2/` describe the official architecture document. SHA-256 and SHA-512 verify byte integrity against a trusted manifest copy; they do not prove that a publisher signed a release. A full publisher signature would require a separate private-key-backed verification method.
+
+**Important:** An official artifact is only repository-published once its exact bytes are committed. In particular, a hash manifest alone is not a substitute for hosting the PDF and Word source documents.
+
+## 18. Authorship and licensing
 
 **Chance Joaquin Boone** — Founder and Architect, Beacon Computing Initiative.  
 **Developer Seal:** `CJB-DEV-2026`  

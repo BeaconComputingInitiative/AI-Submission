@@ -31,6 +31,25 @@
 
 BCIPitch is the **project and commercial platform name**. **A440** remains the standardized foundation model file, and **TNM** remains the name of the adaptive model architecture. This naming change does not imply that a production model or self-training system has already been completed.
 
+## Detailed engineering pipelines
+
+The complete **BCIPitch Pipeline Engineering Specification v3.3** documents the data contracts, failure recovery, acceptance tests, and runtime responsibilities of every pipeline from customer commissioning to adaptive learning.
+
+**[Read the full pipeline specification →](docs/PIPELINES.md)**
+
+| Pipeline | Detailed coverage |
+|---|---|
+| A440 commissioning | Business profile, historical baseline, signed deployment and immediate analytics |
+| Signatures and raw ledger | Nine collector interfaces, source authorization, event provenance and bounded ingestion |
+| Measures and eligibility | Normalization, quality checks, targets and train/test leakage controls |
+| Octet tournament | Eight qualified examples, 8→4→2→1 hierarchy, masks and cross-branch verification |
+| Conductor | CPU-aware candidate training, held-out tests, version promotion and rollback |
+| C polishing | Optional numerical packing/quantization with post-conversion evaluation |
+| Business inference | Verified reporting, forecasting baselines, uncertainty and citations |
+| Feedback | Outcome Signatures, measured consequences, replay and local specialization |
+
+**Operational guarantee target:** an observation enters learning **if and only if** it passes authorization, provenance, schema, privacy, and objective-specific eligibility checks; a candidate model becomes active **if and only if** separate evaluation, policy and integrity gates pass.
+
 ## 1. The vision
 
 The **A440 Tonal Network Model** is a proposed adaptive AI architecture in which every deployment begins with the same standardized **A440 model file** and develops an independent, environment-specific **Tonal Variant**. Instead of continuously ingesting indiscriminate internet-scale corpora, authorized agents collect domain-specific observations, qualify evidence, and create compact, high-value training examples.

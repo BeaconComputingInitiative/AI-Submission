@@ -3,7 +3,7 @@
 
 **Developer Seal:** CJB-DEV-2026
 **Project:** BCIPitch — Predictive Intelligence Through Contextual Harmony
-**Architecture:** A440 Tonal Network Model
+**Architecture:** A440 Neural Variant (A440-NV) — contract-driven Neural Evidence Field
 **Source:** /home/chance/Desktop/BCIPitch
 
 ---
@@ -262,6 +262,30 @@
 **Next engineering tasks:** Specify and test A440 Contract Compiler; build a minimal NEF relational kernel and agent-to-Condenser ingestion loop; implement delayed-outcome matching and candidate promotion gates; establish independent locked evaluation cohorts. Existing M4.1–M4.4.8 checkpoints and measurements remain baselines and must not be overwritten. T1 tonal research is exploratory, not the adopted production core.
 
 **Git:** documentation update (this commit)
+**Developer Seal:** CJB-DEV-2026
+
+---
+
+---
+
+### 2026-11-02 | IMPLEMENTATION & VALIDATION | A440-N1 20-Endpoint Docker Research Lab
+
+**Status:** SYNTHETIC PYTHON INTEGRATION VERIFIED / DOCKER HOST DEPLOYMENT PENDING
+
+**Architecture naming:** Current A440 architecture is **Neural Variant (A440-NV)**, with a contract-driven Neural Evidence Field. Historical research titles and published v3.2 filenames remain unchanged to preserve provenance. See `docs/architecture/A440-NEURAL-VARIANT-N1.md`.
+
+**Laboratory:** Twenty independently identified synthetic endpoint processes each contribute a distinct contracted daily business metric. Nine logical collector identities map across those twenty endpoints. The Condenser validates contracts, timestamps, units, numeric ranges and event-content SHA-256; SQLite WAL stores immutable individual events. The reconciled Chorded Truth for each day requires all twenty distinct observations and numerical consistency checks.
+
+**Baseline:** Historical synthetic data November 2024–October 2026, 730 days, 14,600 endpoint events and 730 complete daily Chords. Train through April 2026, validate May–July 2026, reserve August–October 2026 as a locked untouched holdout. The locked holdout is excluded from training, selection and the reporting comparison. Previously inspected CA/NV, NY/TX and FL/GA evaluation cohorts are no longer pristine holdouts.
+
+**Neural learning:** Sparse nonlinear 27-input/27-node relational graph; 193 learned connection positions among 729 possible, with manual-gradient backpropagation. Day-t evidence predicts next-day sales; new verified outcomes make delayed labels. An approved candidate can seed subsequent training; a candidate replaces the live model if and only if benchmark-improvement and historical-regression gates pass. Checkpoint SHA-256 controls guard recovery.
+
+**Quarter simulation:** Fiscal-year November start, 300 real seconds per three-month quarter, with 45 seconds reserved for learning. Incomplete sources or late training delay publication. Initial greeting enumerates twenty loaded metric definitions. Final quarterly Q&A reports observed net sales, next-quarter projection and full-year projection with clear labels separating observations and estimates.
+
+**Verification:** Eleven unit tests passed. Twenty separate Python endpoint processes completed an accelerated 24-second FY2027 Q1 integration cycle. Synthetic observed net sales $797,215.53; next-quarter estimate $713,845.51; FY2027 full-year estimate $2,973,216.88. New-period candidate MAE $146.4532 versus weekly baseline MAE $169.9041; candidate passed *synthetic* promotion gates. Restart successfully recovered its SHA-256-verified approved checkpoint and report. No external-generalization claim.
+
+**Limitations:** Docker engine was unavailable in the execution environment; actual Docker Compose startup and 300-second cadence are not yet verified. Synthetic lab has no enterprise authentication or real connectors; a SHA-256 content digest is not source authentication. Production and generalization remain unapproved. Lab source will be deployed under `labs/a440-neural-variant-20/` separately from prior M4 checkpoints.
+
 **Developer Seal:** CJB-DEV-2026
 
 ---

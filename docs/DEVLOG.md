@@ -214,3 +214,20 @@
 **Developer Seal:** CJB-DEV-2026
 
 ---
+
+---
+
+### 2026-11-02 | DATASET | A440 Multifaceted Financial Intelligence v1.1.0
+
+**Status:** VERIFIED SYNTHETIC DATASET — PUBLICATION METADATA COMMITTED; CANONICAL ARCHIVE PENDING WORKSTATION PUSH
+
+**Developer Seal:** CJB-DEV-2026
+
+- Rebuilt 6,000 distinct multi-factor financial instruction examples (72 problem families): Scale, Arpeggio, Chorded Truth, Octet Tokenizer, Conductor, and Tonal Variants.
+- Split: 4,800 train, 600 validation, 600 test. Per-file SHA-256 and independent synthetic mathematical, provenance, labeling, and mutation checks passed.
+- Original archive SHA-256: `a2bfedad080d1d807815d2cad0a69bbbf33a366822b171eb42b98d462b3863c1`.
+- Publication metadata, all source file hashes, research limits, and verified local uploader added to GitHub. Actual ZIP and source scripts are **not** claimed as uploaded until the workstation publisher completes.
+- Synthetic instructional questions are not genuine economic histories or evidence of trained forecasting accuracy; production deployment remains disallowed.
+
+**Milestone:** `docs/milestones/M4.5-FINANCIAL-DATASET-v1.1.0.md`
+

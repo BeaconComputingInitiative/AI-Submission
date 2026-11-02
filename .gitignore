@@ -1,0 +1,32 @@
+# BEACON COMPUTING INITIATIVE
+# Developer Seal: CJB-DEV-2026
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+backups/
+*.swp
+*.tmp
+*.log
+
+# Local telemetry and databases
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local model weights
+*.pt
+*.pth
+*.safetensors

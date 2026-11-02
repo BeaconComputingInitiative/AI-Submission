@@ -1,5 +1,6 @@
-# BEACON COMPUTING INITIATIVE (BCI)
-## A440 — Tonal Network Model (TNM)
+# BCIPitch
+## Beacon Computing Initiative: Predictive Intelligence Through Contextual Harmony
+### A440 Tonal Network Model (TNM)
 
 ![BCI A440 branded musical staff, 3/4 signature](assets/branding/BCI-A440-Staff-3-4.svg)
 
@@ -18,6 +19,17 @@
 **Status:** Research architecture and proposed commercial deployment specification; not a claim of completed production capabilities.
 
 ---
+
+## Project identity: BCIPitch
+
+**BCIPitch** stands for **Beacon Computing Initiative: Predictive Intelligence Through Contextual Harmony**.
+
+- **Predictive Intelligence** describes evidence-grounded forecasting, task-specific inference, and operational decision support.
+- **Contextual** reflects the fact that each deployed A440 model develops from its authorized business environment, historical metrics, and ongoing observations.
+- **Harmony** describes how independently sourced evidence, Measures, Octets and Tonal Variants can be brought into verifiable relationships without losing provenance.
+- **Pitch** connects the engineering design to the A440 musical tuning reference, its Melody, Conductor, and independent truth voices.
+
+BCIPitch is the **project and commercial platform name**. **A440** remains the standardized foundation model file, and **TNM** remains the name of the adaptive model architecture. This naming change does not imply that a production model or self-training system has already been completed.
 
 ## 1. The vision
 
@@ -273,7 +285,7 @@ Forecasts must include uncertainty and be compared with simple statistical basel
 
 ## 15. Project status and repository scope
 
-This repository is the public **AI-Submission** home for the A440/TNM architecture, founding concept, commercial specification, and subsequent implementation milestones. Architectural descriptions and proposed file structures are **design documentation** unless corresponding tested code and artifacts are committed.
+This repository is the public **BCIPitch project home (currently named AI-Submission on GitHub)** for the A440/TNM architecture, founding concept, commercial specification, and subsequent implementation milestones. Architectural descriptions and proposed file structures are **design documentation** unless corresponding tested code and artifacts are committed.
 
 The musical staff logo uses a **3/4 time signature** and a three-quarter-note motif, with the final note stem directed downward and a staccato mark. It is the visual emblem for the project.
 

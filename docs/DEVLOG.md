@@ -289,3 +289,23 @@
 **Developer Seal:** CJB-DEV-2026
 
 ---
+---
+
+### 2026-11-02T22:09:06Z | COMPLETE | A440 20-Endpoint Quarterly Docker Integration Research Publication
+
+**Status:** SUCCESSFUL USER-REPORTED SYNTHETIC INTEGRATION / SOURCE AND LOCAL TESTS VERIFIED / NOT PRODUCTION APPROVED
+
+**Developer Seal:** CJB-DEV-2026
+
+**Published:** `labs/a440-quarter-lab-v0.1.2/` — 13 files, including synthetic endpoint generator, shared numerical model, 21-service Docker Compose topology, resource-limited staged launcher, six tests, integration report and SHA-256 source manifest. Original verified checkpoints and local running simulation are not modified.
+
+**Workstation observations (2026-11-02):** Initial eight-quarter baseline and 20/20 source reconciliation reported. Two completed five-minute live synthetic quarters advanced the model version v1→v2→v3. Quarter 8 prior v1 forecast $377,937.35 versus actual $378,946.69 (absolute percentage error 0.266%). Quarter 9 prior v2 forecast $394,679.72 versus actual $418,388.00 (5.667%). The saved state manifest verified on the workstation. The source-level six-test suite and manifest also passed local reproduction; full Docker deployment was not independently rerun for this publication.
+
+**Limitations:** The 6→10→1 research model is not the verified M4.1 network or production Neural Evidence Field. Endpoint self-hashes check consistency, not authenticity. Model versions and reported training routines do not prove improved learned accuracy or immutable checkpoint lineage. Training is currently in-place with no Conductor candidate-promotion gate. All financial observations are synthetic. Enterprise deployment remains unapproved.
+
+**Next:** A440-N1.2 immutable versioned checkpoints, training-loss audits, chronological validation, controlled candidate promotion and rollback.
+
+**Git:** research publication commit 05e13220b779f62308bf777227086d6fabcc3a11
+**Developer Seal:** CJB-DEV-2026
+
+---

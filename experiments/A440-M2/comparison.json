@@ -1,0 +1,162 @@
+{
+  "project": "BCIPitch",
+  "developer_seal": "CJB-DEV-2026",
+  "milestone": "A440-M2",
+  "version": "0.2.0",
+  "device": "cpu",
+  "pytorch": "2.15.0+cu132",
+  "parameters": 1249,
+  "dataset": "deterministic_synthetic_regression",
+  "dataset_sizes": {
+    "train": 448,
+    "validation": 96,
+    "test": 96
+  },
+  "note": "Octet is currently a batch-size comparison, not a harmonic tournament implementation.",
+  "results": [
+    {
+      "configuration": "baseline",
+      "batch_size": 32,
+      "epochs": 15,
+      "best_validation_mse": 0.007318463874980807,
+      "held_out_test_mse": 0.003468993352726102,
+      "training_seconds": 0.35938852099934593,
+      "checkpoint": "models/A440/A440-baseline-v0.2.0.pt",
+      "checkpoint_sha256": "15ad65628a5d291b59c079902db3040cf0fffade1214e4da97989f2f8ab68785",
+      "history": [
+        {
+          "epoch": 1,
+          "validation_mse": 0.2537698795398076
+        },
+        {
+          "epoch": 2,
+          "validation_mse": 0.1386240596572558
+        },
+        {
+          "epoch": 3,
+          "validation_mse": 0.06431943426529567
+        },
+        {
+          "epoch": 4,
+          "validation_mse": 0.030129543816049893
+        },
+        {
+          "epoch": 5,
+          "validation_mse": 0.014481470454484224
+        },
+        {
+          "epoch": 6,
+          "validation_mse": 0.009737064596265554
+        },
+        {
+          "epoch": 7,
+          "validation_mse": 0.009429724731793007
+        },
+        {
+          "epoch": 8,
+          "validation_mse": 0.00838468549773097
+        },
+        {
+          "epoch": 9,
+          "validation_mse": 0.009876486534873644
+        },
+        {
+          "epoch": 10,
+          "validation_mse": 0.007850247280051311
+        },
+        {
+          "epoch": 11,
+          "validation_mse": 0.0077367848716676235
+        },
+        {
+          "epoch": 12,
+          "validation_mse": 0.007960878778249025
+        },
+        {
+          "epoch": 13,
+          "validation_mse": 0.00734861947906514
+        },
+        {
+          "epoch": 14,
+          "validation_mse": 0.008646021597087383
+        },
+        {
+          "epoch": 15,
+          "validation_mse": 0.007318463874980807
+        }
+      ]
+    },
+    {
+      "configuration": "octet",
+      "batch_size": 8,
+      "epochs": 15,
+      "best_validation_mse": 0.005200394584486882,
+      "held_out_test_mse": 0.0018276821356266737,
+      "training_seconds": 1.0693066480016569,
+      "checkpoint": "models/A440/A440-octet-v0.2.0.pt",
+      "checkpoint_sha256": "eb1c5cab48ce04c93c46537420b01275b3f53e01ee54364506bb328ea3d72e14",
+      "history": [
+        {
+          "epoch": 1,
+          "validation_mse": 0.07872075960040092
+        },
+        {
+          "epoch": 2,
+          "validation_mse": 0.011519587133079767
+        },
+        {
+          "epoch": 3,
+          "validation_mse": 0.008186377158078054
+        },
+        {
+          "epoch": 4,
+          "validation_mse": 0.007090612159421046
+        },
+        {
+          "epoch": 5,
+          "validation_mse": 0.01032102177850902
+        },
+        {
+          "epoch": 6,
+          "validation_mse": 0.0057246746340145665
+        },
+        {
+          "epoch": 7,
+          "validation_mse": 0.006492454092949629
+        },
+        {
+          "epoch": 8,
+          "validation_mse": 0.0064094865617031855
+        },
+        {
+          "epoch": 9,
+          "validation_mse": 0.009275033759574095
+        },
+        {
+          "epoch": 10,
+          "validation_mse": 0.006139570885958771
+        },
+        {
+          "epoch": 11,
+          "validation_mse": 0.006567506662880381
+        },
+        {
+          "epoch": 12,
+          "validation_mse": 0.005901812653367718
+        },
+        {
+          "epoch": 13,
+          "validation_mse": 0.005200394584486882
+        },
+        {
+          "epoch": 14,
+          "validation_mse": 0.00577893340960145
+        },
+        {
+          "epoch": 15,
+          "validation_mse": 0.008294027609129747
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # BCIPitch
 ## Beacon Computing Initiative: Predictive Intelligence Through Contextual Harmony
-### A440 Tonal Network Model (TNM)
+### A440 Neural Variant (A440-NV)
 
 ![BCI A440 branded musical staff, 3/4 signature](assets/branding/BCI-A440-Staff-3-4.svg)
 
@@ -26,10 +26,27 @@
 
 - **Predictive Intelligence** describes evidence-grounded forecasting, task-specific inference, and operational decision support.
 - **Contextual** reflects the fact that each deployed A440 model develops from its authorized business environment, historical metrics, and ongoing observations.
-- **Harmony** describes how independently sourced evidence, Measures, Octets and Tonal Variants can be brought into verifiable relationships without losing provenance.
+- **Harmony** describes how independently sourced evidence, Measures, Octets and Neural Variants can be brought into verifiable relationships without losing provenance.
 - **Pitch** connects the engineering design to the A440 musical tuning reference, its Melody, Conductor, and independent truth voices.
 
-BCIPitch is the **project and commercial platform name**. **A440** remains the standardized foundation model file, and **TNM** remains the name of the adaptive model architecture. This naming change does not imply that a production model or self-training system has already been completed.
+BCIPitch is the **project and commercial platform name**. **A440** remains the standardized foundation model file, and **A440 Neural Variant (A440-NV)** names the active research architecture. This naming change does not imply that a production model or self-training system has already been completed.
+
+## Current architecture: A440 Neural Variant (A440-NV)
+
+**Status: N1 research prototype; no enterprise deployment authorization.**
+
+The active design is a **contract-driven Neural Evidence Field** (NEF), not a musical oscillator-based network. The musical vocabulary (Scale, Arpeggio, Chorded Truth, Conductor and Octet) remains a historical organizing metaphor for A440's numerical operators and evidence reconciliation.
+
+- Nine reusable acquisition-function agent interfaces operate only under tenant-specific, versioned **Data Acquisition Contracts**.
+- The Condenser maps authorized events to an append-only, source-linked Evidence Ledger with explicit observed and received timestamps.
+- A sparse learnable **relational neural kernel** maintains **Observed** and **Projected** states separately and updates only affected relationships.
+- Historical point-in-time predictions can become training examples only after an independently verified outcome, contract eligibility and provenance checks.
+- The Conductor trains isolated candidates and requires explicit evaluation, lineage and operator approval before replacing committed parameters.
+- Tenant evidence and adaptations are isolated; the shared foundation is not automatically updated from customer data.
+
+**N1 prototype artifacts:** [Neural Variant architecture](docs/architecture/A440-NEURAL-VARIANT-N1.md). The earlier M4 checkpoints remain research baselines. Previously examined CA/NV, NY/TX and FL/GA evaluation windows are no longer independent holdouts.
+
+**Legacy publication:** Release v3.2 filenames and previous published manifests retain the *Tonal Network Model* designation solely for historical traceability; the current architecture designation is **Neural Variant**.
 
 ## M4.1–M4.4 — Learned and Chorded Truth research
 
@@ -65,7 +82,7 @@ The complete **BCIPitch Pipeline Engineering Specification v3.3** documents the 
 
 ## 1. The vision
 
-The **A440 Tonal Network Model** is a proposed adaptive AI architecture in which every deployment begins with the same standardized **A440 model file** and develops an independent, environment-specific **Tonal Variant**. Instead of continuously ingesting indiscriminate internet-scale corpora, authorized agents collect domain-specific observations, qualify evidence, and create compact, high-value training examples.
+The **A440 Neural Variant** is a proposed contract-driven Neural Evidence Field architecture in which every deployment begins with the same standardized **A440 model file** and develops an independent, environment-specific **Neural Variant**. Instead of continuously ingesting indiscriminate internet-scale corpora, authorized agents collect domain-specific observations, qualify evidence, and create compact, high-value training examples.
 
 A440 is the *master score*: a versioned neural checkpoint with an accompanying architecture definition. Its deployed instances are independent performances of that score, shaped by the business, organization, or computing environment in which they operate.
 
@@ -75,7 +92,7 @@ A440 is the *master score*: a versioned neural checkpoint with an accompanying a
 
 The architecture takes its terminology from ensemble performance:
 
-| Musical concept | TNM meaning |
+| Musical concept | A440-NV meaning |
 |---|---|
 | **A440** | Standardized base model checkpoint and shared architecture |
 | **Seed** | Deployment of a verified A440 foundation |
@@ -87,7 +104,7 @@ The architecture takes its terminology from ensemble performance:
 | **Harmonic relationships** | Tested dependencies and agreements between propositions |
 | **Catalyst** | Hypothesis-generation stage for higher-order interpretations |
 | **Melody** | The active reasoning trajectory and evolving local score |
-| **Tonal Variant** | The validated environment-specific adaptation |
+| **Neural Variant** | The validated environment-specific adaptation |
 
 The terms are an engineering metaphor, not a substitute for specifying neural operations and evaluation criteria.
 
@@ -130,7 +147,7 @@ This separation permits a small-business deployment to keep answering questions 
                                 |
                  OPTIONAL C ARTIFACT POLISHING
                                 |
-                  LOCAL TONAL VARIANT
+                  LOCAL NEURAL VARIANT
                                 |
             Operational answers / forecasts / outcomes
                                 |
@@ -239,7 +256,7 @@ Octets are a **training organization mechanism**, not by themselves a tokenizer.
 
 ## 9. The Conductor and controlled self-training
 
-The Conductor manages candidate updates to the local Tonal Variant:
+The Conductor manages candidate updates to the local Neural Variant:
 
 - Select task-compatible, verified Octets and representative replay examples.
 - Schedule CPU-budgeted training without blocking business operations.
@@ -269,7 +286,7 @@ The active model remains stable while candidates train. Predictions made by the 
 
 **Small business:** One local A440 instance, a small set of approved Signatures, operational baselines, and bounded CPU training.
 
-**Midmarket:** Multiple departmental Tonal Variants with separately governed data scopes and shared schema standards.
+**Midmarket:** Multiple departmental Neural Variants with separately governed data scopes and shared schema standards.
 
 **Enterprise:** Tenant isolation, centrally governed policy, audit trails, controlled model rollouts, local/federated learning only where authorized, and secure data exchange.
 
@@ -281,11 +298,11 @@ Five datasets of 1,000 entries each are planned:
 
 | Dataset | Learning target | Entries |
 |---|---|---:|
-| TNM-Reason | Logical reasoning, uncertainty, counterexamples | 1,000 |
-| TNM-Interpret | Event interpretation and structured evidence | 1,000 |
-| TNM-Harmony | Dependencies, contradictions, hypotheses | 1,000 |
-| TNM-Act | Authorized action selection and verified outcomes | 1,000 |
-| TNM-Adapt | Eligibility, evaluation, replay, rollback | 1,000 |
+| A440-NV-Reason | Logical reasoning, uncertainty, counterexamples | 1,000 |
+| A440-NV-Interpret | Event interpretation and structured evidence | 1,000 |
+| A440-NV-Harmony | Dependencies, contradictions, hypotheses | 1,000 |
+| A440-NV-Act | Authorized action selection and verified outcomes | 1,000 |
+| A440-NV-Adapt | Eligibility, evaluation, replay, rollback | 1,000 |
 
 **Status:** These are curriculum targets, not claims that 5,000 validated training records or a pretrained A440 checkpoint are already included here.
 
@@ -317,7 +334,7 @@ Forecasts must include uncertainty and be compared with simple statistical basel
 
 ## 15. Project status and repository scope
 
-This repository is the public **BCIPitch project home (currently named AI-Submission on GitHub)** for the A440/TNM architecture, founding concept, commercial specification, and subsequent implementation milestones. Architectural descriptions and proposed file structures are **design documentation** unless corresponding tested code and artifacts are committed.
+This repository is the public **BCIPitch project home (currently named AI-Submission on GitHub)** for the A440/A440-NV architecture, founding concept, commercial specification, and subsequent implementation milestones. Architectural descriptions and proposed file structures are **design documentation** unless corresponding tested code and artifacts are committed.
 
 The musical staff logo uses a **3/4 time signature** and a three-quarter-note motif, with the final note stem directed downward and a staccato mark. It is the visual emblem for the project.
 
@@ -343,6 +360,6 @@ The release metadata and checksum manifests in `releases/v3.2/` describe the off
 
 ### The BCI principle
 
-> **A440 supplies the common foundation. Signatures gather experience. Measures qualify evidence. Octets compose learning. The Conductor trains. Tonal Variants mature through verified outcomes.**
+> **A440 supplies the common foundation. Signatures gather experience. Measures qualify evidence. Octets compose learning. The Conductor trains. Neural Variants mature through verified outcomes.**
 
 *Observe accurately · Preserve faithfully · Analyze transparently · Communicate securely · Act deliberately*

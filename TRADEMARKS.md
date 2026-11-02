@@ -7,7 +7,7 @@
 
 ## Claimed designations
 - **BCIPitch™** — software platform and associated business intelligence research and services.
-- **A440n⁶™** — proposed foundational computational model designation.
+- **A440™** — proposed foundational computational model designation.
 - **Chromatic Computational Kernel** — current technical architecture description, not asserted here as a federally registered word mark.
 
 **Associated organization:** Beacon Computing Initiative.

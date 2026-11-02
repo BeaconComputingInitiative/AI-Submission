@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BEACON COMPUTING INITIATIVE | Developer Seal CJB-DEV-2026 | BCI A440 Staff Brand -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="t d">
+<title id="t">BCI A440 Tonal Network Model musical emblem</title>
+<desc id="d">Treble staff, three-four time signature, ascending B C D quarter notes, final D stem down and staccato dot above, blue beacon arc and BCI wordmark.</desc>
+<rect width="1200" height="540" fill="#ffffff"/>
+<path d="M205 153 Q600 -5 995 153" fill="none" stroke="#006dae" stroke-width="7"/>
+<path d="M600 25 L612 62 L649 75 L612 88 L600 125 L588 88 L551 75 L588 62Z" fill="#05add7"/>
+<g stroke="#10151e" stroke-width="5">
+<path d="M160 160H1040 M160 200H1040 M160 240H1040 M160 280H1040 M160 320H1040"/>
+</g>
+<g font-family="serif" fill="#10151e">
+<text x="180" y="309" font-size="186">𝄞</text>
+<text x="340" y="222" font-size="79" font-weight="bold">3</text>
+<text x="340" y="302" font-size="79" font-weight="bold">4</text>
+</g>
+<g fill="#10151e" stroke="#10151e" stroke-width="5.5" stroke-linecap="round">
+<ellipse cx="530" cy="240" rx="25" ry="16" transform="rotate(-23 530 240)"/>
+<path d="M554 234V139"/>
+<ellipse cx="690" cy="220" rx="25" ry="16" transform="rotate(-23 690 220)"/>
+<path d="M714 214V119"/>
+<ellipse cx="850" cy="200" rx="25" ry="16" transform="rotate(-23 850 200)"/>
+<path d="M827 206V310"/>
+</g>
+<circle cx="850" cy="154" r="7" fill="#10151e"/>
+<g font-family="Georgia,serif" fill="#081e39" text-anchor="middle">
+<text x="600" y="418" font-size="92" font-weight="bold" letter-spacing="12">BCI</text>
+<text x="600" y="464" font-size="29" font-weight="bold" letter-spacing="5">BEACON COMPUTING INITIATIVE</text>
+<text x="600" y="502" font-size="20" letter-spacing="4">A440 · TONAL NETWORK MODEL</text>
+</g>
+</svg>

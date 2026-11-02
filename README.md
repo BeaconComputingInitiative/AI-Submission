@@ -31,6 +31,19 @@
 
 BCIPitch is the **project and commercial platform name**. **A440** remains the standardized foundation model file, and **TNM** remains the name of the adaptive model architecture. This naming change does not imply that a production model or self-training system has already been completed.
 
+## M4.1–M4.4 — Learned and Chorded Truth research
+
+**Research implementation published 2026-11-02 · Developer Seal: `CJB-DEV-2026` · No production deployment approval.**
+
+- **M4.1 — Learned Truth:** Numerical shared encoder with four heads (L09 pattern recognition, L10 cross-context matching, L11 forecast, L12 generating-rule family classification).
+- **M4.2 — Chorded Truth:** Evidence-linked reconciliation and explicit rejection of unsupported or contradicted claims; not a thirteenth algorithm.
+- **M4.3 — Analytical validation:** User-side synthetic challenge evaluation completed with 21 passing tests and independent synthetic domains for calibration and evaluation.
+- **M4.4 — Comparative real-world bridge:** Public BLS unemployment-rate comparison via FRED (CAUR/NVUR). User-side combined suite: **34 passing tests**. **Public-data retrieval timed out; no real-world forecast result has been demonstrated.**
+
+[Detailed publication notes](docs/milestones/M4.4-PUBLICATION-NOTES.md) · [Source integrity manifests](docs/milestones/M4.4-SOURCE-SHA256SUMS) · [FRED timeout recovery](scripts/recover-a440-m44-data.sh)
+
+The published Python components are experimental and read-only by default. Trained checkpoints, downloaded third-party datasets, and local experiment files are **not** included in the source publication.
+
 ## Detailed engineering pipelines
 
 The complete **BCIPitch Pipeline Engineering Specification v3.3** documents the data contracts, failure recovery, acceptance tests, and runtime responsibilities of every pipeline from customer commissioning to adaptive learning.

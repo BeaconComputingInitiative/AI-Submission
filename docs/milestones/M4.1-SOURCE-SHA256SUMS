@@ -1,0 +1,3 @@
+709fad6f998749678dacea62efe1d945db0c2f9fe4f84cac10ee631017f1850d  src/bcipitch/learned_truth.py
+3f250aafd1927af454504c924009acb7f5dbbbef48e09e0938292b56122f3411  tests/test_learned_truth.py
+5168281c7af9fb34300321926cd391a95bc854a001d84ae450d0c86badad0673  docs/milestones/M4.1-LEARNED-TRUTH.md

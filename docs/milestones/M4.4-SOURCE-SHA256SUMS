@@ -1,0 +1,3 @@
+d6544959d13a945188e0478e43588995404f52afb99e494bff5da21300c6fc16  src/bcipitch/realworld_bridge.py
+53390a32acad1a221934af733eb26072df50ec59966e37bb18be3f5e37999106  tests/test_realworld_bridge.py
+476e252071685cc32149dccc83feff83169380f316df87e39fc3fcc5b5088dcc  docs/milestones/M4.4-REAL-WORLD-COMPARATIVE-LEARNING.md

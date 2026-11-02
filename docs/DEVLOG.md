@@ -194,3 +194,23 @@
 **Specification:** docs/architecture/A440-CHROMATIC-COMPUTATIONAL-KERNEL-v0.4.0.md
 
 **Developer Seal:** CJB-DEV-2026
+
+---
+
+### 2026-11-02 | COMPLETE | M4.1–M4.4 Source Publication and FRED Timeout Recovery
+
+**Project:** BCIPitch — A440 Learned Truth and Chorded Truth
+
+**Developer Seal:** CJB-DEV-2026
+
+**Published implementation:** Four numerical Learned Truth heads (L09–L12), Chorded Truth evidence reconciliation, independent synthetic analytical challenge set, and public-data comparative bridge. Added four milestone source integrity manifests, integration tests, design notes, and a FRED retrieval retry script. All new source is kept in versioned research files; previous milestones and model files are not overwritten.
+
+**User-reported local verification (2026-11-02):** M4.1 training research gates passed, M4.2 eight-case integration and checksum validation passed, M4.3 21 tests and eight evidence controls passed, M4.4 combined tests **34 passed in 2.87 s**. The M4.4 real-world FRED download subsequently timed out before model evaluation. These are user-supplied workstation results; no real-data predictive accuracy claim is made.
+
+**Local checkpoints and external datasets:** Excluded from this GitHub commit. A440 production deployment remains unapproved.
+
+**Detailed release:** docs/milestones/M4.4-PUBLICATION-NOTES.md
+
+**Developer Seal:** CJB-DEV-2026
+
+---

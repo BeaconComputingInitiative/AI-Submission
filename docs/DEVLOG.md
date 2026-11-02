@@ -156,13 +156,13 @@
 ---
 
 ---
-### 2026-11-02 | DESIGN | A440n⁶ Foundational Architecture and Chromatic Kernel
+### 2026-11-02 | DESIGN | A440 Foundational Architecture and Chromatic Kernel
 
 **Status:** SPECIFICATION ADOPTED FOR DESIGN / IMPLEMENTATION NOT VERIFIED
 
 **Recent design discussion recorded:**
-- Reduced the intended BCIPitch whole-model architecture to four parent systems: Signatures, Condenser, A440n⁶ and Conductor.
-- Established A440n⁶ as a business-adaptive foundation with conversational response generation as a later release requirement; numerical and algorithmic competence has priority before language-model training.
+- Reduced the intended BCIPitch whole-model architecture to four parent systems: Signatures, Condenser, A440 and Conductor.
+- Established A440 as a business-adaptive foundation with conversational response generation as a later release requirement; numerical and algorithmic competence has priority before language-model training.
 - Defined Octet Tokenizer **pre-layout**: ordered and provenance-linked groups of eight eligible Measures, contextual composition, source preservation and exceptions.
 - Examined musical 32nd/16th/eighth/quarter-note processing as a metaphor for concurrent multi-resolution processing; timing and measured throughput remain open research questions.
 - Developed the chromatic-scale metaphor: a consistent foundation can support alternative structural transformations and business-specific variation. Do not mistake scale intervals for independently verified business facts.
@@ -173,12 +173,24 @@
 - Required a Chord to classify verified calculations, supported observations, hypotheses, contradictions and unresolved claims; a learned claim is verified if and only if its evidence and derivation meet independent gates.
 - Kept the earlier 8→4→2→1 harmonic neural composition separate from the new **8 + 4 → 1** algorithmic responsibilities.
 - Declared the proposed v0.4.0 architecture as design work. **No twelve-algorithm implementation, new trained checkpoint, or business-deployment claim is made.**
-- Documented claimed **BCIPitch™ / A440n⁶™** designations and the need for separate USPTO clearance/filing.
+- Documented claimed **BCIPitch™ / A440™** designations and the need for separate USPTO clearance/filing.
 
-**Specification:** docs/architecture/A440N6-CHROMATIC-COMPUTATIONAL-KERNEL-v0.4.0.md
+**Specification:** docs/architecture/A440-CHROMATIC-COMPUTATIONAL-KERNEL-v0.4.0.md
 
 **Trademark claim record:** TRADEMARKS.md
 
 **Developer Seal:** CJB-DEV-2026
 
 ---
+
+---
+
+### 2026-11-02 | CORRECTION | A440 Foundation Model Name
+
+**Status:** DOCUMENTATION CORRECTION — NO MODEL OR ALGORITHM CHANGE
+
+**Details:** Confirmed the intended name is **A440**. Removed an unintended mathematical suffix from the published architecture and brand notice; renamed the chromatic kernel specification and its integrity manifest. The original five-commit history remains unchanged. Technical responsibilities are still **8 deterministic + 4 learned → 1 reasoned Chord**.
+
+**Specification:** docs/architecture/A440-CHROMATIC-COMPUTATIONAL-KERNEL-v0.4.0.md
+
+**Developer Seal:** CJB-DEV-2026

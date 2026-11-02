@@ -46,7 +46,7 @@ The active design is a **contract-driven Neural Evidence Field** (NEF), not a mu
 
 **N1 prototype artifacts:** [Neural Variant architecture](docs/architecture/A440-NEURAL-VARIANT-N1.md). The earlier M4 checkpoints remain research baselines. Previously examined CA/NV, NY/TX and FL/GA evaluation windows are no longer independent holdouts.
 
-**Legacy publication:** Release v3.2 filenames and previous published manifests retain the *Tonal Network Model* designation solely for historical traceability; the current architecture designation is **Neural Variant**.
+**Legacy publication:** The original v3.2 archive filenames and published manifests remain immutable for provenance. The active architecture designation is **Neural Variant**.
 
 ## M4.1–M4.4 — Learned and Chorded Truth research
 

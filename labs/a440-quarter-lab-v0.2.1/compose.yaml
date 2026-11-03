@@ -1,0 +1,180 @@
+# BEACON COMPUTING INITIATIVE
+# Developer Seal: CJB-DEV-2026
+services:
+  model:
+    build: .
+    command: python -u model.py
+    environment:
+      QUARTER_SECONDS: "${QUARTER_SECONDS:-300}"
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - a440_state:/state
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-01:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "1"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-02:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "2"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-03:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "3"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-04:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "4"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-05:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "5"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-06:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "6"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-07:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "7"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-08:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "8"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-09:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "9"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-10:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "10"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-11:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "11"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-12:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "12"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-13:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "13"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-14:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "14"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-15:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "15"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-16:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "16"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-17:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "17"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-18:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "18"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-19:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "19"
+    restart: unless-stopped
+    networks:
+      - lab
+  endpoint-20:
+    build: .
+    command: python -u endpoint.py
+    environment:
+      ENDPOINT_ID: "20"
+    restart: unless-stopped
+    networks:
+      - lab
+networks:
+  lab:
+    internal: true
+volumes:
+  a440_state:

@@ -1,0 +1,83 @@
+{
+  "initiative": "BEACON COMPUTING INITIATIVE",
+  "developer_seal": "CJB-DEV-2026",
+  "version": "BCI-A440-7B-1.0.0",
+  "date_utc": "2026-11-03",
+  "source": "User-reported Kali Docker summary.json",
+  "synthetic_data_only": true,
+  "production_approved": false,
+  "scenarios_complete": 7,
+  "scenario_invariant_checks": 130,
+  "forecast_wins_vs_persistence": 2,
+  "missing_scenarios": [],
+  "results": [
+    {
+      "industry": "restaurant",
+      "a440_MAE": 0.0223922,
+      "persistence_MAE": 0.0205435,
+      "seasonal_12_MAE": 0.0974594,
+      "promotions": 0,
+      "beats_persistence": false
+    },
+    {
+      "industry": "retail",
+      "a440_MAE": 0.0226577,
+      "persistence_MAE": 0.0222211,
+      "seasonal_12_MAE": 0.0437278,
+      "promotions": 0,
+      "beats_persistence": false
+    },
+    {
+      "industry": "logistics",
+      "a440_MAE": 0.0229819,
+      "persistence_MAE": 0.0227186,
+      "seasonal_12_MAE": 0.0467307,
+      "promotions": 1,
+      "beats_persistence": false
+    },
+    {
+      "industry": "manufacturing",
+      "a440_MAE": 0.0198022,
+      "persistence_MAE": 0.0197834,
+      "seasonal_12_MAE": 0.0456896,
+      "promotions": 0,
+      "beats_persistence": false
+    },
+    {
+      "industry": "hospitality",
+      "a440_MAE": 0.0240003,
+      "persistence_MAE": 0.0244308,
+      "seasonal_12_MAE": 0.0458189,
+      "promotions": 0,
+      "beats_persistence": true
+    },
+    {
+      "industry": "construction",
+      "a440_MAE": 0.0224983,
+      "persistence_MAE": 0.0225094,
+      "seasonal_12_MAE": 0.0473663,
+      "promotions": 0,
+      "beats_persistence": true
+    },
+    {
+      "industry": "professional_services",
+      "a440_MAE": 0.0244996,
+      "persistence_MAE": 0.0243629,
+      "seasonal_12_MAE": 0.0421208,
+      "promotions": 0,
+      "beats_persistence": false
+    }
+  ],
+  "transfer": {
+    "test": "six_industries_pretrain_seventh_unseen",
+    "unseen_industry": "professional_services",
+    "evaluation_months": "36..47 inclusive; optimizer withheld",
+    "cold_start_normalized_MAE": 0.02490725,
+    "six_industry_transfer_normalized_MAE": 0.02494912,
+    "adapted_unseen_industry_normalized_MAE": 0.02478824,
+    "persistence_normalized_MAE": 0.02436293,
+    "transfer_improved_over_cold_start": false,
+    "adaptation_improved_over_transfer": true,
+    "adaptation_improved_over_persistence": false
+  }
+}

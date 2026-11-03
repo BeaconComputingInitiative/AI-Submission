@@ -1,0 +1,9 @@
+# BEACON COMPUTING INITIATIVE
+# Developer Seal: CJB-DEV-2026
+__pycache__/
+*.pyc
+.env
+*.db
+*.sqlite*
+*state*.json
+*.log

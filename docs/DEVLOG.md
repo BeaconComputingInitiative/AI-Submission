@@ -327,3 +327,25 @@ Proposed restaurant evaluation: 24-month baseline, four quarters of catch-up and
 **Limitation:** General conversational intelligence, actual business adaptability, causal attribution and deployment safety are not yet demonstrated. Future candidate promotion requires preregistered validation and rollback gates.
 
 ---
+
+---
+### 2026-11-03 | RESEARCH & PUBLICATION | A440 U2.1 Multi-Industry, Weight Audit, JSONL Status
+
+**Status:** VERSIONED U2.1 SOURCE PUBLICATION / USER-VERIFIED WORKSTATION RESULTS / PRODUCTION PROMOTION BLOCKED
+
+**Developer Seal:** CJB-DEV-2026
+
+**Model:** Integrated U2.1 source and 50-test regression suite published under `labs/a440-quarter-lab-v0.2.1/` without overwriting U2.0. User's workstation architecture and source SHA-256 checks passed. SHA-256 model: `b79c6c73ff85a5ed3c71cc094930827cb260fb82f7b59e4a85730a2d8124976e`.
+
+**Seven-business Docker evaluation:** Seven synthetic business scenarios and an independent cross-industry transfer case ran successfully on Kali; 130 scenario invariant checks passed. Neural forecasts beat persistence in two of seven industries. Unadapted six-industry weights did not outperform the cold-start model or persistence on unseen professional services. Transfer adaptation improved neural MAE but still trailed persistence. Benchmark record: `experiments/A440-U2.1-7B/benchmark-summary.json`.
+
+**Weight audit:** Twelve tests passed on the user workstation. Synthetic trained validation MAE 0.01737696 vs persistence 0.01508226. Tenant A training changed tenant B inference by +0.13919793 because shared trunk/role parameters remained mutable; a 124-bucket hashed feature space contained 60 collision buckets among 201 labels. Original model and checkpoint weights were not modified by the audit.
+
+**Dataset preparation:** JSONL converter passed nine tests and Python/pyarrow environment installed. No completed FRED ingestion or direct CSV neural training was verified.
+
+**Next:** U2.2 weight-isolation architecture, metric-identity representation, residual forecasting, CSV/JSONL contract validators, stronger candidate promotion and newly locked external holdouts. U2.2 is design only; no production or enterprise-connector deployment claim.
+
+**Milestone:** `docs/milestones/A440-U2.1-VALIDATION-AND-WEIGHT-AUDIT.md`  
+**Design:** `docs/milestones/A440-U2.2-TRAINING-AND-ISOLATION-GATES.md`
+
+---

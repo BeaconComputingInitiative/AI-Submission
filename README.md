@@ -2,6 +2,8 @@
 ## Beacon Computing Initiative: Predictive Intelligence Through Contextual Harmony
 ### A440 Neural Variant (A440-NV)
 
+**Latest research update — 2026-11-06:** [M2.14–M2.16 milestone results](docs/milestones/A440-M2.14-M2.16-RESEARCH-STATUS-2026-11-06.md) · [M2.16.2 concurrent-runtime architecture](docs/architecture/A440-M2.16.2-CONCURRENT-RUNTIME-DESIGN.md) · [SHA-256 manifest](docs/milestones/A440-M2.14-M2.16-SHA256SUMS). The adaptive-ingestion experiments and four-source routing have local verification; model promotion is **HOLD**, and system-wide concurrent execution is **not yet deployed**.
+
 ![BCI A440 branded musical staff, 3/4 signature](assets/branding/BCI-A440-Staff-3-4.svg)
 
 ![BCI A440 evidence and learning pipeline](assets/illustrations/A440-Training-Pipeline.svg)

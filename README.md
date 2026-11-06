@@ -1,367 +1,180 @@
-# BCIPitch
-## Beacon Computing Initiative: Predictive Intelligence Through Contextual Harmony
-### A440 Neural Variant (A440-NV)
+# BEACON COMPUTING INITIATIVE
+# BCIPitch — Adaptive Evidence Intelligence with A440
 
-**Latest research update — 2026-11-06:** [M2.14–M2.16 milestone results](docs/milestones/A440-M2.14-M2.16-RESEARCH-STATUS-2026-11-06.md) · [M2.16.2 concurrent-runtime architecture](docs/architecture/A440-M2.16.2-CONCURRENT-RUNTIME-DESIGN.md) · [SHA-256 manifest](docs/milestones/A440-M2.14-M2.16-SHA256SUMS). The adaptive-ingestion experiments and four-source routing have local verification; model promotion is **HOLD**, and system-wide concurrent execution is **not yet deployed**.
-
-![BCI A440 branded musical staff, 3/4 signature](assets/branding/BCI-A440-Staff-3-4.svg)
-
-![BCI A440 evidence and learning pipeline](assets/illustrations/A440-Training-Pipeline.svg)
-
-**Publication package:** [Release v3.2 metadata](releases/v3.2/BCI_A440_Tonal_Network_Model_Official_v3.2.release.json) · [SHA-256](releases/v3.2/BCI_A440_Tonal_Network_Model_Official_v3.2.SHA256SUMS) · [SHA-512](releases/v3.2/BCI_A440_Tonal_Network_Model_Official_v3.2.SHA512SUMS)
-
-> **Publication status:** The manifests record the official document hashes. The actual PDF, DOCX, and Markdown publication files are not yet committed in the repository, so these manifests cannot be fully checked against GitHub-hosted documents.
-
-**Official research and commercial architecture | Specification v3.2 | Developer Seal: CJB-DEV-2026**
-
-> **A shared foundational model. Independent environmental intelligence. Evidence-driven adaptation.**
-
-**Architect and founder:** Chance Joaquin Boone  
-**Organization:** Beacon Computing Initiative  
-**Status:** Research architecture and proposed commercial deployment specification; not a claim of completed production capabilities.
-
----
-
-## Project identity: BCIPitch
-
-**BCIPitch** stands for **Beacon Computing Initiative: Predictive Intelligence Through Contextual Harmony**.
-
-- **Predictive Intelligence** describes evidence-grounded forecasting, task-specific inference, and operational decision support.
-- **Contextual** reflects the fact that each deployed A440 model develops from its authorized business environment, historical metrics, and ongoing observations.
-- **Harmony** describes how independently sourced evidence, Measures, Octets and Neural Variants can be brought into verifiable relationships without losing provenance.
-- **Pitch** connects the engineering design to the A440 musical tuning reference, its Melody, Conductor, and independent truth voices.
-
-BCIPitch is the **project and commercial platform name**. **A440** remains the standardized foundation model file, and **A440 Neural Variant (A440-NV)** names the active research architecture. This naming change does not imply that a production model or self-training system has already been completed.
-
-## Current architecture: A440 Neural Variant (A440-NV)
-
-**Status: N1 research prototype; no enterprise deployment authorization.**
-
-The active design is a **contract-driven Neural Evidence Field** (NEF), not a musical oscillator-based network. The musical vocabulary (Scale, Arpeggio, Chorded Truth, Conductor and Octet) remains a historical organizing metaphor for A440's numerical operators and evidence reconciliation.
-
-- Nine reusable acquisition-function agent interfaces operate only under tenant-specific, versioned **Data Acquisition Contracts**.
-- The Condenser maps authorized events to an append-only, source-linked Evidence Ledger with explicit observed and received timestamps.
-- A sparse learnable **relational neural kernel** maintains **Observed** and **Projected** states separately and updates only affected relationships.
-- Historical point-in-time predictions can become training examples only after an independently verified outcome, contract eligibility and provenance checks.
-- The Conductor trains isolated candidates and requires explicit evaluation, lineage and operator approval before replacing committed parameters.
-- Tenant evidence and adaptations are isolated; the shared foundation is not automatically updated from customer data.
-
-**N1 prototype artifacts:** [Neural Variant architecture](docs/architecture/A440-NEURAL-VARIANT-N1.md). The earlier M4 checkpoints remain research baselines. Previously examined CA/NV, NY/TX and FL/GA evaluation windows are no longer independent holdouts.
-
-**Legacy publication:** The original v3.2 archive filenames and published manifests remain immutable for provenance. The active architecture designation is **Neural Variant**.
-
-## M4.1–M4.4 — Learned and Chorded Truth research
-
-**Research implementation published 2026-11-02 · Developer Seal: `CJB-DEV-2026` · No production deployment approval.**
-
-- **M4.1 — Learned Truth:** Numerical shared encoder with four heads (L09 pattern recognition, L10 cross-context matching, L11 forecast, L12 generating-rule family classification).
-- **M4.2 — Chorded Truth:** Evidence-linked reconciliation and explicit rejection of unsupported or contradicted claims; not a thirteenth algorithm.
-- **M4.3 — Analytical validation:** User-side synthetic challenge evaluation completed with 21 passing tests and independent synthetic domains for calibration and evaluation.
-- **M4.4 — Comparative real-world bridge:** Public BLS unemployment-rate comparison via FRED (CAUR/NVUR). User-side combined suite: **34 passing tests**. **Public-data retrieval timed out; no real-world forecast result has been demonstrated.**
-
-[Detailed publication notes](docs/milestones/M4.4-PUBLICATION-NOTES.md) · [Source integrity manifests](docs/milestones/M4.4-SOURCE-SHA256SUMS) · [FRED timeout recovery](scripts/recover-a440-m44-data.sh)
-
-The published Python components are experimental and read-only by default. Trained checkpoints, downloaded third-party datasets, and local experiment files are **not** included in the source publication.
-
-## Detailed engineering pipelines
-
-The complete **BCIPitch Pipeline Engineering Specification v3.3** documents the data contracts, failure recovery, acceptance tests, and runtime responsibilities of every pipeline from customer commissioning to adaptive learning.
-
-**[Read the full pipeline specification →](docs/PIPELINES.md)**
-
-| Pipeline | Detailed coverage |
-|---|---|
-| A440 commissioning | Business profile, historical baseline, signed deployment and immediate analytics |
-| Signatures and raw ledger | Nine collector interfaces, source authorization, event provenance and bounded ingestion |
-| Measures and eligibility | Normalization, quality checks, targets and train/test leakage controls |
-| Octet tournament | Eight qualified examples, 8→4→2→1 hierarchy, masks and cross-branch verification |
-| Conductor | CPU-aware candidate training, held-out tests, version promotion and rollback |
-| C polishing | Optional numerical packing/quantization with post-conversion evaluation |
-| Business inference | Verified reporting, forecasting baselines, uncertainty and citations |
-| Feedback | Outcome Signatures, measured consequences, replay and local specialization |
-
-**Operational guarantee target:** an observation enters learning **if and only if** it passes authorization, provenance, schema, privacy, and objective-specific eligibility checks; a candidate model becomes active **if and only if** separate evaluation, policy and integrity gates pass.
-
-## 1. The vision
-
-The **A440 Neural Variant** is a proposed contract-driven Neural Evidence Field architecture in which every deployment begins with the same standardized **A440 model file** and develops an independent, environment-specific **Neural Variant**. Instead of continuously ingesting indiscriminate internet-scale corpora, authorized agents collect domain-specific observations, qualify evidence, and create compact, high-value training examples.
-
-A440 is the *master score*: a versioned neural checkpoint with an accompanying architecture definition. Its deployed instances are independent performances of that score, shaped by the business, organization, or computing environment in which they operate.
-
-**The objective is not merely another chatbot.** It is a system that can answer grounded operational questions, evaluate trends, forecast measurable outcomes, and selectively improve through controlled local training.
-
-## 2. The musical foundation
-
-The architecture takes its terminology from ensemble performance:
-
-| Musical concept | A440-NV meaning |
-|---|---|
-| **A440** | Standardized base model checkpoint and shared architecture |
-| **Seed** | Deployment of a verified A440 foundation |
-| **Signatures** | Permissioned data-collection agents that observe their environment |
-| **Measures** | Source-linked, normalized, quality-assessed evidence |
-| **Octets** | Brackets of eight qualified training examples |
-| **Conductor** | Training scheduler, evaluator, and promotion controller |
-| **Truth voices** | Independently represented evidence-bearing propositions |
-| **Harmonic relationships** | Tested dependencies and agreements between propositions |
-| **Catalyst** | Hypothesis-generation stage for higher-order interpretations |
-| **Melody** | The active reasoning trajectory and evolving local score |
-| **Neural Variant** | The validated environment-specific adaptation |
-
-The terms are an engineering metaphor, not a substitute for specifying neural operations and evaluation criteria.
-
-## 3. End-to-end pipeline
-
-### Engineering flow versus business experience
-
-The business does not need to wait for self-training before using its historic metrics. On commissioning, the A440 instance loads an approved profile and an auditable baseline, then answers metric questions by retrieving records and performing calculations. Concurrently, its Signatures observe approved sources, its Measure Engine qualifies the evidence, and its Conductor uses suitable Octets to evaluate potential behavioral improvements.
-
-The training loop is deliberately **not** self-certifying: a proposed causal explanation, anomaly label or forecast made by the model cannot serve as independent proof of its own correctness. Feedback and verified business outcomes need provenance and independent checks.
-
-### System boundaries
-
-- **Data plane:** Signature events, raw ledger, Measures, and safe retrieval.
-- **Learning plane:** Eligibility, eight-entry Octet assembly, training, held-out evaluation, promotion and rollback.
-- **Governance plane:** A440 version identity, permissions, tenant data boundaries, retention, and audit.
-- **Application plane:** Electron dashboards, explanations, grounded answers, and forecasts.
-
-This separation permits a small-business deployment to keep answering questions while training runs opportunistically in the background, and permits enterprises to manage policies consistently without forcing all branches to share raw business data.
-
-
-```text
-                     A440 foundational model file
-                                |
-                   Verified business deployment
-                                |
-                 SIGNATURES — authorized collection
-                                |
-                 RAW EVENT LEDGER — provenance
-                                |
-                 MEASURES — normalized evidence
-                                |
-            QUALITY GATE — privacy, validity, targets
-                                |
-                  OCTETS — 8 qualified examples
-                                |
-              CONDUCTOR — candidate neural training
-                                |
-            EVALUATION — held-out tests and regression
-                                |
-                 OPTIONAL C ARTIFACT POLISHING
-                                |
-                  LOCAL NEURAL VARIANT
-                                |
-            Operational answers / forecasts / outcomes
-                                |
-               Outcome Signatures feed next cycle
-```
-
-**Critical separation:** New observations can update auditable memory and retrieval immediately; changes to neural weights require an eligible objective, a candidate training run, independent evaluation, and explicit promotion rules.
-
-## 4. A440 is a model file
-
-The A440 checkpoint stores the foundational neural weights. Its companion files define architecture, encoding, versioning, compatibility, and governance. A randomly initialized checkpoint is *not* a pretrained reasoning model. A useful general-purpose A440 requires an appropriate pretraining strategy or a compatible pretrained starting point.
-
-A deployed variant should reference the unchanged base checkpoint and keep its own adapters, memory, and provenance separately. Model policies must be enforced by trusted runtime code rather than relying on neural instructions alone.
-
-### Illustrative file layout
-
-```text
-foundation/A440/
-  A440.safetensors
-  architecture.json
-  manifest.sha256
-instances/<tenant>/
-  profile.json
-  historical_baseline.db
-  signatures.json
-  measures.db
-  octets/
-  adapters/
-  memory.db
-  training_history/
-  manifests/
-```
-
-These paths describe the proposed layout, not files already shipped in this repository.
-
-## 5. Business commissioning: from purchase to local intelligence
-
-A business supplies its **industry, operating scope, KPIs, reporting conventions, approved data sources, access boundaries, and historical metrics** (for example, the previous fiscal year). BCI provisions a business-specific deployment from the standard A440 model and packages:
-
-1. **A440 reference and versioned configuration:** base model identity, runtime compatibility, and approved policies.
-2. **Historical baseline:** structured, auditable financial and operational metrics, not values hidden solely in neural weights.
-3. **Measure definitions:** formulas, units, accounting periods, data quality expectations, and domain terminology.
-4. **Authorized Signatures:** connectors for explicitly approved systems such as point of sale, inventory, accounting, or telemetry.
-5. **Local runtime and Electron dashboard:** answers, charts, forecasts, data-source status, and training oversight.
-6. **Integrity metadata:** hashes, provenance, and, where provisioned, publisher-authenticated signatures.
-
-**Day-one capabilities:** Retrieval and calculation over supplied records; baseline comparisons; simple forecasts when sufficient historical resolution exists. These do **not** require immediate customer-specific weight training.
-
-**Maturing capabilities:** Local observations support anomaly detection, specialized language and reasoning tasks, and better forecasting *if validated against baselines*. No system should promise accurate predictions solely because it has collected more data.
-
-### Example commissioning metrics
-
-Revenue by period; gross margin; average order value; inventory turnover; labor utilization; customer retention; cash flow; delivery time; support resolution time. Every metric requires a definition, unit, time window, provenance, and access classification.
-
-## 6. Signature interfaces
-
-Nine proposed Signature categories provide modular, permission-scoped observation:
-
-| Interface | Typical approved sources |
-|---|---|
-| SIG-01 System | Host health, operating system events |
-| SIG-02 Network | Authorized network telemetry |
-| SIG-03 Applications | Application logs and service events |
-| SIG-04 Configuration | Versioned configuration state |
-| SIG-05 Integrity | Checksums, integrity attestations |
-| SIG-06 Performance | Latency, throughput, resource use |
-| SIG-07 Knowledge | Approved documents and knowledge bases |
-| SIG-08 Outcomes | Confirmed results and measured consequences |
-| SIG-09 Context | Business calendars, seasonality, domain context |
-
-Signatures **do not** receive blanket access. They require tenant-specific permissions, data minimization, revocation, retention controls, and source provenance. Observations are not automatically ground truth.
-
-## 7. Measures: the quality engine
-
-A Measure is a normalized unit of evidence derived from one or more raw events. Its minimum logical schema includes:
-
-```text
-measure_id | signature_id | source_refs | time_window
-observation | derived_features | verification_status
-uncertainty | policy_scope | quality_result | schema_version
-```
-
-Measures can express time-series aggregates, state transitions, verified outcomes, or relationships between records. Each Measure remains traceable to source observations. Contradictions, unknowns, and missing data must be preserved rather than silently resolved.
-
-**An observation becomes training-eligible if and only if** source authorization, provenance, schema checks, privacy restrictions, and the intended learning target all pass. A quality score alone does not establish truth.
-
-## 8. Octet tournament ingestion
-
-An Octet contains **eight eligible examples**, not eight bytes and not eight arbitrary raw events. The proposed tournament organizes them hierarchically:
-
-```text
-8 qualified examples
-    ↓ 4 pairwise relation/merge operations
-4 intermediate representations
-    ↓ 2 relation/merge operations
-2 harmonic representations
-    ↓ 1 final merge
-1 bracket-level synthesis with all source references retained
-```
-
-Seven primary merges organize an eight-entry bracket. This is less than the 28 comparisons required for exhaustive all-pairs examination, but **does not guarantee** that all cross-branch relationships are discovered. Targeted checks and evidence replay are necessary where cross-branch dependencies matter.
-
-A 100-example training queue yields 12 full Octets and one partial four-example bracket. The implementation must support masking or smaller final brackets without silently dropping data.
-
-Octets are a **training organization mechanism**, not by themselves a tokenizer. Byte-native encoders may be benchmarked against conventional tokenization; they are not assumed to be faster.
-
-## 9. The Conductor and controlled self-training
-
-The Conductor manages candidate updates to the local Neural Variant:
-
-- Select task-compatible, verified Octets and representative replay examples.
-- Schedule CPU-budgeted training without blocking business operations.
-- Maintain independent training, validation, and test partitions.
-- Measure task-specific performance, calibration, inference latency, and regression.
-- Promote a candidate **if and only if** its authorization, held-out quality, integrity, and A440 compatibility gates pass.
-- Retain a rollback checkpoint and a complete training provenance record.
-
-The active model remains stable while candidates train. Predictions made by the model must not become trusted labels merely because the model generated them. New knowledge and new weights are separate lifecycle events.
-
-## 10. Implementation stack
-
-| Layer | Proposed technology |
-|---|---|
-| Backend and orchestration | Python |
-| Neural research and training | PyTorch / NumPy |
-| Evidence ledger and local memory | SQLite WAL |
-| Efficient columnar / binary representations | Arrow or memory-mapped arrays |
-| Optional trained-artifact polishing | C native modules, after benchmarking |
-| GUI | Electron + TypeScript |
-| Integrity | SHA-256 manifests; cryptographic signatures for authenticity |
-| Tests | pytest, numerical regression and end-to-end evaluation |
-
-**Python remains the backend.** C is an optional optimization/polishing layer for trained artifacts and targeted computational bottlenecks, not a replacement backend. Electron is the customer-facing control interface.
-
-## 11. Commercial deployment tiers
-
-**Small business:** One local A440 instance, a small set of approved Signatures, operational baselines, and bounded CPU training.
-
-**Midmarket:** Multiple departmental Neural Variants with separately governed data scopes and shared schema standards.
-
-**Enterprise:** Tenant isolation, centrally governed policy, audit trails, controlled model rollouts, local/federated learning only where authorized, and secure data exchange.
-
-The intended product is a **commissioned, continuously evidence-informed business intelligence model**, not a promise of unrestricted autonomous decision-making.
-
-## 12. Proposed research curriculum
-
-Five datasets of 1,000 entries each are planned:
-
-| Dataset | Learning target | Entries |
-|---|---|---:|
-| A440-NV-Reason | Logical reasoning, uncertainty, counterexamples | 1,000 |
-| A440-NV-Interpret | Event interpretation and structured evidence | 1,000 |
-| A440-NV-Harmony | Dependencies, contradictions, hypotheses | 1,000 |
-| A440-NV-Act | Authorized action selection and verified outcomes | 1,000 |
-| A440-NV-Adapt | Eligibility, evaluation, replay, rollback | 1,000 |
-
-**Status:** These are curriculum targets, not claims that 5,000 validated training records or a pretrained A440 checkpoint are already included here.
-
-## 13. Development milestones
-
-**M1 — Foundation:** Define the checkpoint, architecture manifest, input contract, and deterministic policy enforcement.
-
-**M2 — Acquisition:** Implement Signature permissions, collection scheduling, durable events, and revocation.
-
-**M3 — Qualification:** Implement Measure derivation, source references, uncertainty, quality checks, and learning objectives.
-
-**M4 — Composition:** Build eight-entry Octets, hierarchical merges, masking, and cross-branch verification.
-
-**M5 — Learning:** Train candidate adapters, run held-out evaluations, and implement gated promotion and rollback.
-
-**M6 — Deployment:** Connect the Electron dashboard, commission test business baselines, and measure live operational usefulness.
-
-**M7 — Validation:** Compare identical A440 seeds deployed into distinct environments; demonstrate different but traceable local adaptations while preserving compatibility.
-
-### Required performance evidence
-
-Record ingestion throughput, Measure qualification rate, Octet assembly latency, CPU and peak RAM, training examples/second, forecast error, held-out task accuracy, model regression, and time to rollback. Claims of efficiency require benchmark results.
-
-## 14. Safety, provenance, and customer trust
-
-Customer data remains governed by customer-specific authorization and retention requirements. Maintain encryption where appropriate, tenant isolation, role-based access, source auditability, and explicit approval for sensitive integrations. Hashes detect changes; **hashes alone do not authenticate authorship**. A signed release manifest is required for verifiable publisher authenticity.
-
-Forecasts must include uncertainty and be compared with simple statistical baselines. Recommendations must cite the evidence used. Any self-training update must be reversible.
-
-## 15. Project status and repository scope
-
-This repository is the public **BCIPitch project home (currently named AI-Submission on GitHub)** for the A440/A440-NV architecture, founding concept, commercial specification, and subsequent implementation milestones. Architectural descriptions and proposed file structures are **design documentation** unless corresponding tested code and artifacts are committed.
-
-The musical staff logo uses a **3/4 time signature** and a three-quarter-note motif, with the final note stem directed downward and a staccato mark. It is the visual emblem for the project.
-
-## 16. Acknowledgments
-
-The musical foundation of this work is dedicated with gratitude to **Shawn Silva and Joseph Flores**, high school band directors at **Oñate High School in Las Cruces, New Mexico**, and **Aaron Howe**, director of the **New Mexico Gay Men's Chorus**. Their mentorship, musical instruction, and support informed the ensemble metaphor at the heart of this architecture.
-
-## 17. Publication and artifact integrity
-
-The release metadata and checksum manifests in `releases/v3.2/` describe the official architecture document. SHA-256 and SHA-512 verify byte integrity against a trusted manifest copy; they do not prove that a publisher signed a release. A full publisher signature would require a separate private-key-backed verification method.
-
-**Important:** An official artifact is only repository-published once its exact bytes are committed. In particular, a hash manifest alone is not a substitute for hosting the PDF and Word source documents.
-
-## 18. Authorship and licensing
-
-**Chance Joaquin Boone** — Founder and Architect, Beacon Computing Initiative.  
 **Developer Seal:** `CJB-DEV-2026`  
-**© 2026 Beacon Computing Initiative.**
+**Founder and architect:** Chance Joaquin Boone  
+**Current engineering milestone:** M2.16.2 — Concurrent Interpretation and Reasoning  
+**Most recent evaluated neural candidate:** A440 v0.3.6 — **research HOLD**  
+**Status (November 6, 2026):** Research prototype; not authorized for production deployment or autonomous model promotion
 
-**Licensing note:** No open-source license is granted by this README alone. Until a separate LICENSE file is approved and committed, copyright is reserved. Documentation, branding/artwork, code, and model weights may require different licenses. Do not infer that customer business data or future trained models are publicly licensed.
+![BCI A440 musical staff](assets/branding/BCI-A440-Staff-3-4.svg)
+
+> **One versioned foundational neural model, adaptive interpretation of authorized evidence, causal feature compilation, and independently evaluated candidate learning.**
+
+**Read this project from present to origin.** The current engineering results come first; historical N1, M4, U2 and v3.2 design documents remain preserved but do **not** supersede the current implementation.
+
+**Core documentation:** [Current M2.14–M2.16 research status](docs/milestones/A440-M2.14-M2.16-RESEARCH-STATUS-2026-11-06.md) · [Concurrent runtime design](docs/architecture/A440-M2.16.2-CONCURRENT-RUNTIME-DESIGN.md) · [M2.11–M2.13 research](docs/milestones/A440-2026-11-05-RESEARCH-UPDATE.md) · [Original README archived verbatim](docs/archive/README-legacy-N1-M4-2026-11-06.md)
 
 ---
 
-### The BCI principle
+## 1. Today: what A440 actually does
 
-> **A440 supplies the common foundation. Signatures gather experience. Measures qualify evidence. Octets compose learning. The Conductor trains. Neural Variants mature through verified outcomes.**
+A440 is an **adaptive-ingestion and native-neural-learning research system**. It can read and qualify structured evidence, preserve provenance, construct versioned neural features, train separate research candidates and compare them against simple baselines. It has **not** demonstrated general-purpose reasoning, reliable cross-domain forecasting, or completed business operations deployment.
+
+| System | Demonstrated / locally reported | Open engineering gate |
+| --- | --- | --- |
+| Authorized data ingestion | Structured CSV, JSON, JSONL, SQLite and selected public-source adapters | Unattended live connectors and full tenant authorization |
+| Adaptive schema and semantics | Type, unit, coverage, reporting-period interpretation; explicit missingness | Universal semantics and unfamiliar-source qualification |
+| Condenser and evidence ledger | SHA-256 source checks, append-only records, deduplication, quarantine and typed exports | End-to-end durable live recovery |
+| Neural input compiler | Causal historical features + contract-derived semantics; train/inference parity | Multi-resolution objectives for nonadditive and irregular measurements |
+| Shared A440 checkpoint | Versioned native 128-input research model and preserved lineage | Independently demonstrated generalization |
+| Conductor | Multi-seed research training, temporal embargoes and per-domain HOLD gates | Safely promoted active models with rigorous external holdouts |
+| Concurrent interpreter and inference | Worker, snapshot and backpressure design; isolated prototype work | **System-wide deployment and live concurrency tests not yet verified** |
+| Business intelligence | Early synthetic research and application specification | Complete business-operation integration and evaluation |
+
+### Evidence-to-learning pipeline
+
+```text
+AUTHORIZED SOURCES
+    │
+    ▼
+ADAPTIVE DISCOVERY + SEMANTIC INTERPRETATION
+    │   data type · unit · observed time · reporting period · coverage
+    ▼
+CONDENSER + VERIFIED EVIDENCE LEDGER
+    │   provenance · deduplication · quarantine · sealed snapshots
+    ├───────────────────────────────┐
+    ▼                               ▼
+SEMANTIC FEATURE COMPILER      READ-ONLY INFERENCE (design target)
+    │                               │
+    ▼                               │
+A440 NATIVE FOUNDATION ←───────────┘
+    │
+    ▼
+CONDUCTOR → RESEARCH TRAINING → INDEPENDENT EVALUATION → HOLD / QUALIFIED
+```
+
+The diagram combines tested components and **intended concurrent orchestration**; it does not claim that the whole runtime is already deployed on Kali. A source becomes training-eligible **if and only if** authorization, provenance, semantics, chronology and independently verified outcome gates pass.
+
+## 2. M2.16.2 — Concurrent interpretation and inference (active work)
+
+The next runtime allows interpretation to continue while inference uses a **pinned, immutable, verified evidence snapshot**.
+
+- `asyncio` handles bounded authorized source I/O.
+- CPU-heavy interpretation runs in isolated worker processes.
+- One ledger writer seals a complete snapshot before it becomes visible to inference.
+- A separate reasoning/inference process keeps a stable model SHA and snapshot ID per request.
+- The Conductor trains research candidates separately; it cannot silently update serving weights.
+- Backpressure, crash recovery, replay and independent promotion gates are required before declaring system-wide deployment.
+
+**Status:** [Architecture contract published](docs/architecture/A440-M2.16.2-CONCURRENT-RUNTIME-DESIGN.md); isolated experimentation reported. **End-to-end live concurrency and deployment are not independently confirmed.**
+
+## 3. M2.16.0–M2.16.1.1 — Diagnostics and four unfamiliar data types
+
+### Neural semantic diagnostics
+
+The M2.16.0 read-only test of v0.3.6 reported:
+
+| Dataset | Validation MAE | Prediction shift when semantic channels were zeroed |
+| --- | ---: | ---: |
+| NYC subway | 69,946.109375 | 5,566.779297 |
+| NYC 311 requests | 500.430420 | 3.893895 |
+| Open-Meteo precipitation | 4.227985 | 0.043078 |
+
+The shifts demonstrate **sensitivity**, not that semantic representations improve forecast accuracy or encode the physical meaning of units. The diagnostic report was locally SHA-256 verified and no model weights changed.
+
+### Four newly processed real public datasets
+
+M2.16.1.1 resolved missing-value handling and completed typed routing into a verified local evidence ledger.
+
+| Source | Accepted records | Semantics | Neural training |
+| --- | ---: | --- | --- |
+| USGS streamflow (2025) | 365 | Nonadditive daily mean flow rate | HOLD |
+| USGS earthquakes M5+ (2025) | 2,130 | Irregular events; logarithmic magnitude | HOLD |
+| NYC TLC operations | 908 | Mixed monthly statistics | HOLD |
+| BLS unemployment (2025) | 11 | Monthly percentage rate | HOLD |
+| **Total** | **3,414** | Four distinct contracts | **Not authorized** |
+
+One BLS missing-value marker was explicitly excluded, **not** replaced with zero. Local routing manifest and evidence-ledger head hashes are documented in the [research status](docs/milestones/A440-M2.14-M2.16-RESEARCH-STATUS-2026-11-06.md). The original raw datasets and local SQLite ledger are **not** included in this repository.
+
+## 4. M2.15 — Adaptive ingestion and semantic-to-neural overhaul
+
+- **M2.15.0:** Source-profile discovery, authorized contracts, record integrity, quarantine, deduplication and append-only evidence ledger.
+- **M2.15.1:** Evidence-gated re-ingestion/retraining reproduced the prior M2.14.3 results exactly to the displayed precision. This established processing parity, **not** improved predictive performance.
+- **M2.15.2:** Expanded the native model from **96 to 128 inputs** with 32 contract-derived semantic channels and a matching inference compiler. Checkpoint v0.3.6 was trained and hash verified, but the all-domain calibration gate reported **HOLD**.
+
+## 5. M2.14 — Native model refinement and calibration
+
+The model retained one shared neural foundation and versioned checkpoints; it did **not** replace A440 with three independent domain-specific neural networks.
+
+- **M2.14.0:** Robust clipping, scale-aware training, three seeds and a chronological embargo.
+- **M2.14.1:** Calibrated blending passed subway and NYC 311, but precipitation preferred persistence; overall **HOLD**.
+- **M2.14.2:** Added 39 causal and intermittency features, expanding the model to **96 native inputs**; calibration **HOLD**.
+- **M2.14.3:** Added gradient-conflict-aware shared-parameter training; authorization-token hotfix was verified; calibration **HOLD**.
+
+| Research candidate | Subway calibration MAE | NYC 311 calibration MAE | Precipitation calibration MAE |
+| --- | ---: | ---: | ---: |
+| v0.3.4 (M2.14.2) | 224,212.218750 | 774.381592 | 1.775825 |
+| v0.3.5 (M2.14.3) | 264,907.875000 | 820.270874 | 1.530283 |
+| v0.3.6 (M2.15.2) | 274,663.937500 | 827.684082 | 1.483136 |
+
+These are repeatedly inspected historical calibration windows—not new independent holdouts. The regression results are **not** authorization to promote any new candidate.
+
+## 6. M2.11–M2.13 — The history-aware foundation
+
+- Eight daily, eight completed weekly, eight completed monthly historical values, explicit coverage masks and elapsed-day gaps formed a **47-channel history-only feature contract**.
+- Function-preserving expansion kept the earlier trained core intact: **10 → 57 inputs** with zero-initialized new columns and parity checks.
+- Initial retail experiments trained only new native columns with original weights frozen and no adapters.
+- Three keyless public sources—MTA subway, NYC 311 and Open-Meteo ERA5 precipitation—were acquired and audited; automatic training began after the qualified audit gate.
+- Shared A440 v0.3.2 research training used 1,464 qualified examples and 54 epochs, selecting epoch 39.
+
+First held-out test comparison against the prior-eight-observation mean:
+
+| Dataset | Prior-eight mean MAE | v0.3.2 test MAE | Approximate reduction |
+| --- | ---: | ---: | ---: |
+| Subway | 698,020.21 | 456,707.00 | 34.57% |
+| NYC 311 | 1,451.19 | 1,225.46 | 15.56% |
+| Precipitation | 3.2525 | 3.24175 | 0.33% |
+
+NYC 311 was worse than the persistence baseline, and precipitation calibration regressed. These limitations motivated M2.14 onward. [Full earlier record](docs/milestones/A440-2026-11-05-RESEARCH-UPDATE.md).
+
+## 7. Earlier research and parallel tracks — M4, N1 and U2
+
+The repository retains earlier architectural and business-facing research. These tracks are useful historical context, not evidence that the live adaptive runtime or a general-purpose business model is production-ready.
+
+- **N1 Neural Variant / Neural Evidence Field:** Earlier contract-driven sparse relational architecture. [Historical architecture](docs/architecture/A440-NEURAL-VARIANT-N1.md).
+- **M4.1–M4.4:** Learned Truth, Chorded Truth and synthetic validation. The earlier FRED bridge timed out, so no real-world forecast success was established in that release. [M4.4 notes](docs/milestones/M4.4-PUBLICATION-NOTES.md).
+- **U2.0–U2.2:** Earlier integrated business-research source, synthetic multi-industry comparisons and weight-isolation audits. [U2.1 audit](docs/milestones/A440-U2.1-VALIDATION-AND-WEIGHT-AUDIT.md) · [U2.2 proposal](docs/milestones/A440-U2.2-TRAINING-AND-ISOLATION-GATES.md).
+- **v3.2/v3.3 architecture publications:** Historical release metadata and detailed [pipeline specification](docs/PIPELINES.md). Those documents describe proposed business commissioning, not a currently operating business application.
+
+[Read the complete historical README, unchanged](docs/archive/README-legacy-N1-M4-2026-11-06.md).
+
+## 8. The origin — M1 and the A440 principle
+
+BCIPitch stands for **Beacon Computing Initiative: Predictive Intelligence Through Contextual Harmony**. Its musical terminology remains useful as an engineering metaphor:
+
+| Term | Meaning |
+| --- | --- |
+| A440 | Standardized immutable foundation checkpoint and its declared architecture |
+| Signatures | Authorized source observations with provenance |
+| Measures | Qualified, typed, reconciled evidence |
+| Octets | Eight-entry qualified training brackets / historical research construct |
+| Conductor | Candidate training, evaluation and promotion authority |
+| Melody | Evolving reasoning trajectory or task context |
+| Neural Variant | Environment-specific research behavior with preserved foundation lineage |
+
+The first [M1 prototype](docs/milestones/M1-README.md) used simulated Signatures, a SQLite WAL ledger, Measures and eight-entry Octets; it had **no trained model weights**. The early [M2 neural foundation](docs/milestones/M2-NEURAL-FOUNDATION.md) introduced the 4→32→32→1 GELU network and synthetic regression comparisons. Subsequent milestones evolved that numerical foundation into typed, causal, multi-domain research.
+
+The musical and educational origin is acknowledged with gratitude to **Shawn Silva and Joseph Flores**, band directors at **Oñate High School in Las Cruces, New Mexico**, and **Aaron Howe**, director of the **New Mexico Gay Men's Chorus**.
+
+## 9. Integrity, licensing and current priorities
+
+**Publisher identity and code integrity are distinct:** SHA-256 verifies bytes against a trusted reference; it is not a cryptographic publisher signature. The historical repository manifests and source publications are retained without implying that missing older PDF/DOCX artifacts have been uploaded.
+
+**Next acceptance gates:** (1) typed multi-resolution semantic-to-neural contracts for nonadditive and event data; (2) verified concurrent interpretation/inference snapshot isolation and recovery; (3) fresh temporal holdouts with domain-aware baselines; (4) gated candidate training without negative transfer or unauthorized promotion. No new business-operations feature should be called production-ready before those gates pass.
+
+**Author:** Chance Joaquin Boone — Founder and Architect, Beacon Computing Initiative.  
+**Developer Seal:** `CJB-DEV-2026`.  
+**© 2026 Beacon Computing Initiative.** No open-source license is implied by this README; check repository licensing for the applicable artifact.
 
 *Observe accurately · Preserve faithfully · Analyze transparently · Communicate securely · Act deliberately*

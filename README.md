@@ -17,6 +17,10 @@
 
 ---
 
+## New architecture diagrams: capability learning and Erudite management (research)
+
+[View the GitHub-rendered capability-learning graphs and proposed Erudite management plane](docs/architecture/A440-CAPABILITY-LEARNING-GRAPHS-2026-11-06.md). This page distinguishes Stage 2 **63 passing tests / 14 passing subtests** from Stage 3 **HOLD** (the original 3,414-atom / 374-temporal-bond snapshot is the only verified real-data graph). Erudite is considered as a **separate, proposed orchestration and management layer**, not a merged model or an operationally integrated service. Neural training and promotion are not authorized by these test results.
+
 ## 1. Today: what A440 actually does
 
 A440 is an **adaptive-ingestion and native-neural-learning research system**. It can read and qualify structured evidence, preserve provenance, construct versioned neural features, train separate research candidates and compare them against simple baselines. It has **not** demonstrated general-purpose reasoning, reliable cross-domain forecasting, or completed business operations deployment.

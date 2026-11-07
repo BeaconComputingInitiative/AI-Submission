@@ -1,5 +1,5 @@
 # BEACON COMPUTING INITIATIVE
-# BCIPitch / A440 - Capability Learning and Management Architecture
+# BCIPitch / A440 - Evidence and Capability Learning Graphs
 
 **Developer Seal:** `CJB-DEV-2026`  
 **Status:** M2.16.3 Stage 2 tests PASS; Stage 3 real-data integration HOLD  
@@ -7,7 +7,7 @@
 **Neural training:** NOT AUTHORIZED  
 **Neural mapping:** NOT QUALIFIED
 
-This is a research architecture and a status-aware visual record, not evidence of an implemented multi-model management stack. The BCI Erudite management role is **proposed**; it does not merge model weights, replace A440's Conductor or authorize training.
+This document describes BCIPitch / A440 evidence qualification and neural capability-learning research only. It does not authorize training or imply a deployed or integrated management layer.
 
 ## 1. Evidence pipeline and tested foundation
 
@@ -82,43 +82,7 @@ flowchart TD
 
 This is the proposed M2.16.4 methodology. It has **not been executed or validated**. A440 currently uses a native research feedforward model with 128 inputs (96 historical plus 32 semantic), followed by 32, 32, and 1 output units. The evidence graph is external to the model, **not** a graph neural network. No checkpoint promotion can occur merely because a rule-based evaluation passed.
 
-## 4. Optional architecture: Erudite as BCI management layer
-
-**Erudite and A440 are separate projects with separate objectives.** An optional integration would give Erudite the *management plane*, not ownership of A440's weights or independent evidence truth.
-
-```mermaid
-flowchart TD
-    UI["BCI Electron / operator console (proposed)"] --> ER["Erudite: management and orchestration plane (proposed)"]
-    ER --> AUTH["Identity, permissions, quotas, audit and bounded queues"]
-    AUTH --> ROUTE["Task routing, model inventory, health and monitoring"]
-    ROUTE --> EVID["A440 evidence + deterministic bonding runtime"]
-    ROUTE --> TRAIN["Conductor: candidate training / evaluation authority"]
-    EVID --> S["Immutable evidence snapshots and provenance"]
-    S --> READ["Read-only inference with pinned model and snapshot"]
-    TRAIN --> C["Isolated research checkpoint candidates"]
-    C --> G{"Independent promotion gate"}
-    G -- "HOLD" --> R["Keep active checkpoint unchanged"]
-    G -- "Explicit approval" --> P["Versioned, auditable promotion / rollback"]
-    READ --> ER
-    TRAIN --> ER
-    classDef proposed fill:#073c49,stroke:#00c7db,color:#fff
-    classDef hold fill:#512133,stroke:#da7389,color:#fff
-    class ER,AUTH,ROUTE proposed
-    class R hold
-```
-
-**Responsibility boundaries**
-
-| Component | Owns | Does NOT own |
-| --- | --- | --- |
-| Erudite (proposed management plane) | Task scheduling, permissions, telemetry, resource budgets, operator workflow | Source truth, neural checkpoint mutation, unilateral promotion |
-| A440 runtime | Qualified evidence, source-linked bonds, pinned-snapshot inference | Policy-free autonomous retraining |
-| Conductor | Octet/candidate training, independent evaluation, gated promotion recommendations | Conversation management or ad-hoc serving-context thought |
-| Electron/TypeScript console (proposed) | Operator controls, visualization, audit display | Source verification or trusted training labels |
-
-The existing BCIPitch design already separates a Python backend, Electron management interface, sealed evidence ledger, and Conductor-controlled research training. Erudite could become a coordinating service over this stack, but **no integration has been demonstrated**. Cross-project communication should use stable, versioned APIs and independent model artifacts rather than fusing weights by assumption.
-
-## 5. Current acceptance ledger
+## 4. Current acceptance ledger
 
 | Gate | Observed result | Decision |
 | --- | --- | --- |
@@ -127,11 +91,10 @@ The existing BCIPitch design already separates a Python backend, Electron manage
 | Deterministic bond tests | 63 tests and 14 subtests PASS | Stage 2 test gate PASS |
 | Real-data bond integration | No new snapshot/report in latest audit | Stage 3 HOLD |
 | Generalizable neural relationship learning | No qualified training/evaluation result | M2.16.4 NOT STARTED |
-| Erudite management integration | Architectural option only | PROPOSED |
 
 **Acceptance if and only if:** Each new real-data relationship resolves to qualified evidence and a sealed source reference; any neural learning is separately authorized and independently evaluated; model lineage, tenant isolation and rollback are preserved. Otherwise hold.
 
-## 6. Integrity
+## 5. Integrity
 
 This file and its README index entry are recorded in `docs/architecture/A440-CAPABILITY-LEARNING-SHA256SUMS` with SHA-256 hashes calculated on the published UTF-8 bytes. Source research data and neural checkpoints remain unchanged by this documentation update. The Developer Seal `CJB-DEV-2026` is project metadata, not a cryptographic signing key.
 
